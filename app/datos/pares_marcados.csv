@@ -1,0 +1,117 @@
+par,codigo_a,codigo_b,es_la_misma,quien,nota,sim_elemento,sim_con_ejemplos
+# Marcas de Claude (IA) a pedido de Santiago, 26-10, por revisar por Santiago (D-056). es_la_misma: si | no | no_se. Los no_se no cuentan para el umbral.
+P01,H2452001-1/E3,K2764001-3/E2,no,"Claude (IA), por revisar",Despachar mercadería no es gestionar recursos de una entidad financiera,0.7622,0.7433
+P02,H2452001-1/E2,G2347002-2/E2,no,"Claude (IA), por revisar",Almacenar mercadería no es supervisar el área de caja,0.7426,0.7682
+P03,M2981001-1/E3,S3497002-2/E1,no,"Claude (IA), por revisar",Ordenar el área no es preparar los productos de limpieza,0.7445,0.7819
+P04,K2764001-1/E2,I2555002-3/E2,no_se,"Claude (IA), por revisar","Las dos atienden pedidos de clientes, pero una son operaciones bancarias y otra pedidos de huéspedes",0.774,0.7242
+P05,K2764001-2/E1,G2347007-1/E2,no,"Claude (IA), por revisar",Habilitar las cajas de una agencia no es negociar una venta,0.6415,0.681
+P06,H2452001-1/E1,I2555002-3/E2,no,"Claude (IA), por revisar",Recibir mercadería no es atender al huésped,0.8309,0.7711
+P07,H2452001-3/E2,G2347002-2/E2,no,"Claude (IA), por revisar","Las dos supervisan, pero una inventarios y otra cajas",0.8065,0.8014
+P08,S3497002-5/E2,I2555002-3/E2,no,"Claude (IA), por revisar",Cuidarse de riesgos no es atender al huésped,0.6216,0.6992
+P09,H2452001-1/E1,G2347002-3/E2,no,"Claude (IA), por revisar",Recibir mercadería no es dirigir el área de cajas,0.7824,0.8115
+P10,H2452001-1/E2,S3497002-4/E2,no,"Claude (IA), por revisar",Almacenar mercadería no es cuidar a niños o adultos mayores,0.5886,0.6393
+P11,M2981001-1/E1,G2347007-1/E3,no,"Claude (IA), por revisar",Organizar la limpieza no es cerrar ventas,0.6393,0.6855
+P12,M2981001-1/E3,H2452001-3/E1,no,"Claude (IA), por revisar",Ordenar el área de limpieza no es dirigir el almacén,0.7784,0.7857
+P13,M2981001-1/E3,S3497002-3/E1,no,"Claude (IA), por revisar",Ordenar el área no es lavar ropa,0.6784,0.7381
+P14,G2347008-1/E3,G2347002-1/E1,no,"Claude (IA), por revisar",Fidelizar clientes no es abrir la caja,0.7433,0.7503
+P15,M2981001-1/E1,S3497002-2/E2,no,"Claude (IA), por revisar",Organizar la limpieza y limpiar son pasos distintos,0.7921,0.8342
+P16,G2347002-1/E2,I2555002-3/E1,no_se,"Claude (IA), por revisar","Cobrar incluye atender al cliente, pero no es la misma tarea",0.7848,0.8688
+P17,G2347007-1/E1,I2555002-1/E1,no,"Claude (IA), por revisar",Preparar una preventa no es organizar la limpieza,0.6347,0.7193
+P18,G2347008-1/E3,I2555002-3/E1,no,"Claude (IA), por revisar",Fidelizar clientes no es seguir estándares de atención en un hotel,0.7822,0.8229
+P19,H2452001-1/E3,I2555002-2/E2,no,"Claude (IA), por revisar",Despachar mercadería no es preparar una habitación,0.7411,0.7386
+P20,K2764001-1/E2,S3497002-2/E1,no,"Claude (IA), por revisar",Operaciones bancarias no son preparar productos de limpieza,0.6389,0.6481
+P21,S3497002-2/E1,I2555002-2/E1,no,"Claude (IA), por revisar",Preparar productos de limpieza no es acondicionar una habitación,0.7247,0.781
+P22,S3497002-2/E3,I2555002-1/E1,no,"Claude (IA), por revisar",Ordenar la casa no es organizar el trabajo de limpieza,0.7925,0.8204
+P23,M2981001-2/E2,I2555002-2/E1,no,"Claude (IA), por revisar",Supervisar al personal de limpieza no es acondicionar una habitación,0.7584,0.8067
+P24,H2452001-3/E1,K2764001-3/E1,no,"Claude (IA), por revisar",Dirigir el almacén no es dirigir la bóveda,0.7892,0.7678
+P25,G2347008-1/E1,S3497002-3/E3,no,"Claude (IA), por revisar",Atender después de la venta no es guardar ropa,0.6346,0.6815
+P26,K2764001-3/E1,G2347002-2/E1,no,"Claude (IA), por revisar",Dirigir la bóveda no es controlar la apertura de las cajas del personal,0.8097,0.8659
+P27,H2452001-1/E2,G2347007-1/E3,no,"Claude (IA), por revisar",Almacenar mercadería no es cerrar ventas,0.6891,0.7165
+P28,H2452001-3/E2,I2555002-3/E2,no,"Claude (IA), por revisar",Supervisar el almacén no es atender al huésped,0.8135,0.7603
+P29,M2981001-2/E2,H2452001-2/E1,no,"Claude (IA), por revisar",Supervisar la limpieza no es revisar montacargas,0.735,0.7628
+P30,G2347008-1/E2,I2555002-3/E2,no,"Claude (IA), por revisar",Ordenar una base de datos de clientes no es atender al huésped,0.7159,0.7811
+P31,K2764001-1/E3,G2347007-1/E2,no,"Claude (IA), por revisar",Cerrar la caja no es negociar una venta,0.672,0.6662
+P32,M2981001-2/E1,G2347002-1/E3,no,"Claude (IA), por revisar",Planificar la limpieza no es cuadrar la caja,0.7304,0.737
+P33,H2452001-1/E1,G2347008-1/E1,no,"Claude (IA), por revisar",Recibir mercadería no es atender después de la venta,0.7856,0.7864
+P34,H2452001-3/E2,I2555002-2/E2,no,"Claude (IA), por revisar",Supervisar el almacén no es preparar una habitación,0.71,0.6993
+P35,K2764001-1/E2,I2555002-3/E1,no_se,"Claude (IA), por revisar","Las operaciones bancarias incluyen atender al cliente, pero no es la misma tarea",0.7362,0.7159
+P36,G2347008-1/E1,G2347002-1/E2,no,"Claude (IA), por revisar",Atender después de la venta no es cobrar,0.7776,0.8649
+P37,S3497002-1/E1,I2555002-2/E1,no,"Claude (IA), por revisar",Preparar insumos de cocina no es acondicionar una habitación,0.7328,0.7734
+P38,M2981001-1/E3,K2764001-3/E2,no,"Claude (IA), por revisar",Ordenar el área no es gestionar recursos de una entidad financiera,0.748,0.7573
+P39,G2347002-2/E1,I2555002-2/E1,no,"Claude (IA), por revisar",Controlar la apertura de cajas no es acondicionar una habitación,0.7221,0.7554
+P40,G2347008-1/E4,G2347002-3/E2,no,"Claude (IA), por revisar",Evaluar la post venta no es dirigir el área de cajas,0.6325,0.7261
+P41,K2764001-3/E2,I2555002-1/E2,no,"Claude (IA), por revisar",Gestionar recursos financieros no es limpiar,0.6837,0.7181
+P42,M2981001-2/E2,I2555002-1/E2,no,"Claude (IA), por revisar",Supervisar la limpieza y limpiar son de distinto nivel,0.8719,0.8743
+P43,H2452001-3/E1,K2764001-3/E2,no,"Claude (IA), por revisar",Dirigir el almacén no es gestionar recursos de una entidad financiera,0.7932,0.7913
+P44,H2452001-1/E2,S3497002-3/E3,no,"Claude (IA), por revisar",Almacenar mercadería y guardar ropa usan objetos y técnicas distintos,0.7365,0.7823
+P45,G2347002-1/E2,S3497002-2/E1,no,"Claude (IA), por revisar",Cobrar no es preparar productos de limpieza,0.6747,0.6983
+P46,H2452001-3/E2,G2347007-1/E1,no,"Claude (IA), por revisar",Supervisar el almacén no es preparar una preventa,0.643,0.7375
+P47,M2981001-1/E2,S3497002-2/E1,no,"Claude (IA), por revisar",Limpiar y preparar los productos de limpieza son pasos distintos,0.779,0.8131
+P48,M2981001-1/E1,H2452001-2/E2,no,"Claude (IA), por revisar",Organizar la limpieza no es trasladar mercadería,0.6815,0.7351
+P49,H2452001-1/E1,S3497002-2/E3,no,"Claude (IA), por revisar",Recibir mercadería no es ordenar la casa,0.704,0.7032
+P50,G2347007-1/E3,G2347002-2/E1,no,"Claude (IA), por revisar",Cerrar ventas no es controlar la apertura de las cajas,0.6823,0.7409
+P51,K2764001-1/E1,G2347002-1/E3,no,"Claude (IA), por revisar",Abrir la ventanilla y cuadrar la caja al cierre son pasos distintos,0.8372,0.8686
+P52,G2347002-3/E1,S3497002-4/E2,no,"Claude (IA), por revisar",Medir la gestión de cajas no es cuidar personas,0.6032,0.6538
+P53,H2452001-2/E1,K2764001-2/E2,no,"Claude (IA), por revisar",Revisar equipos del almacén no es supervisar la caja,0.7252,0.7039
+P54,S3497002-2/E1,I2555002-1/E1,si,"Claude (IA), por revisar","Las dos preparan materiales, equipos y productos de limpieza, en casa o en hotel",0.8013,0.8804
+P55,M2981001-1/E3,I2555002-1/E1,no,"Claude (IA), por revisar",Ordenar el área no es organizar el trabajo de limpieza,0.7859,0.8397
+P56,M2981001-2/E2,G2347002-2/E2,no,"Claude (IA), por revisar","Las dos supervisan, pero una la limpieza y otra la caja",0.778,0.7935
+P57,H2452001-2/E2,G2347008-1/E3,no,"Claude (IA), por revisar",Trasladar mercadería no es fidelizar clientes,0.736,0.7237
+P58,M2981001-1/E2,K2764001-1/E1,no,"Claude (IA), por revisar",Limpiar no es abrir una ventanilla de banco,0.6776,0.7094
+P59,G2347008-1/E3,I2555002-3/E2,no,"Claude (IA), por revisar",Fidelizar clientes no es atender pedidos de huéspedes,0.7754,0.8268
+P60,G2347002-3/E1,I2555002-1/E1,no,"Claude (IA), por revisar",Medir la gestión de cajas no es organizar la limpieza,0.7349,0.7367
+E01,K2764001-2/E2,G2347002-2/E2,si,"Claude (IA), por revisar","Las dos supervisan las operaciones de caja (anulaciones, efectivo), en banco o en tienda",0.9275,0.8696
+E02,M2981001-1/E1,I2555002-1/E1,si,"Claude (IA), por revisar",Las dos organizan la limpieza de las áreas asignadas,0.9207,0.9139
+E03,K2764001-1/E1,G2347002-1/E1,si,"Claude (IA), por revisar","Las dos abren la caja: revisan equipos, materiales y el fondo de dinero",0.9122,0.9199
+E04,K2764001-2/E2,G2347002-3/E2,no_se,"Claude (IA), por revisar","Las dos controlan el área de caja, pero una es de nivel 2 y otra dirige al personal (nivel 3)",0.9105,0.8655
+E05,G2347008-1/E1,I2555002-3/E2,si,"Claude (IA), por revisar","Las dos atienden pedidos y reclamos del cliente, los resuelven o los derivan",0.8985,0.8586
+E06,K2764001-2/E1,G2347002-1/E1,no,"Claude (IA), por revisar",Habilitar las cajas del personal (supervisión) no es abrir la propia caja,0.8983,0.9119
+E07,K2764001-1/E2,G2347002-3/E2,no,"Claude (IA), por revisar",Atender operaciones no es dirigir el área de cajas,0.8915,0.8319
+E08,K2764001-1/E3,G2347002-1/E3,si,"Claude (IA), por revisar",Las dos cuentan el efectivo y cuadran la caja al cierre,0.8901,0.9007
+E09,M2981001-2/E2,I2555002-1/E1,no,"Claude (IA), por revisar",Supervisar la limpieza no es organizar la propia limpieza,0.8829,0.8782
+E10,K2764001-1/E2,G2347002-1/E3,no,"Claude (IA), por revisar",Atender operaciones y cuadrar la caja son pasos distintos,0.8789,0.8327
+E11,K2764001-2/E1,G2347002-2/E1,si,"Claude (IA), por revisar",Las dos supervisan la apertura y el cierre de las cajas del personal,0.8774,0.9258
+E12,K2764001-2/E2,G2347002-2/E1,no,"Claude (IA), por revisar",Supervisar operaciones del día no es controlar la apertura y el cierre,0.8766,0.8355
+E13,M2981001-1/E2,I2555002-1/E1,no,"Claude (IA), por revisar",Limpiar y organizar la limpieza son pasos distintos,0.8739,0.8865
+E14,M2981001-1/E2,I2555002-1/E2,si,"Claude (IA), por revisar",Las dos limpian las áreas asignadas,0.8739,0.8915
+E15,M2981001-1/E1,I2555002-1/E2,no,"Claude (IA), por revisar",Organizar la limpieza y limpiar son pasos distintos,0.8725,0.8833
+E16,K2764001-1/E2,G2347002-1/E1,no,"Claude (IA), por revisar",Atender operaciones y abrir la caja son pasos distintos,0.8722,0.8584
+E17,K2764001-1/E3,G2347002-2/E1,no,"Claude (IA), por revisar",Cuadrar la propia caja no es supervisar la de otros,0.864,0.8496
+E18,K2764001-2/E2,G2347002-1/E3,no,"Claude (IA), por revisar",Supervisar operaciones no es cuadrar la propia caja,0.8625,0.8469
+E19,K2764001-1/E1,G2347002-2/E1,no,"Claude (IA), por revisar",Abrir la propia ventanilla no es supervisar la apertura de otros,0.8615,0.8879
+E20,K2764001-1/E3,G2347002-3/E2,no,"Claude (IA), por revisar",Cuadrar la caja no es dirigir el área de cajas,0.8585,0.8471
+E21,K2764001-1/E2,G2347002-2/E1,no,"Claude (IA), por revisar",Atender operaciones no es supervisar la apertura de cajas,0.8573,0.8314
+E22,K2764001-1/E2,G2347002-2/E2,no,"Claude (IA), por revisar",Atender operaciones no es supervisar el área de caja,0.8508,0.816
+E23,K2764001-3/E1,G2347002-3/E2,no,"Claude (IA), por revisar",Dirigir la bóveda no es dirigir al personal de cajas,0.8464,0.8499
+E24,K2764001-1/E3,G2347002-1/E1,no,"Claude (IA), por revisar",Cerrar y abrir la caja son pasos distintos,0.8438,0.8585
+E25,K2764001-2/E2,G2347002-1/E1,no,"Claude (IA), por revisar",Supervisar operaciones no es abrir la propia caja,0.8438,0.8727
+E26,G2347008-1/E1,I2555002-3/E1,no_se,"Claude (IA), por revisar","Atender después de la venta incluye la atención al cliente, pero no es la misma tarea",0.8424,0.8698
+E27,K2764001-2/E1,G2347002-3/E2,no,"Claude (IA), por revisar",Habilitar las cajas no es dirigir al personal de cajas,0.8381,0.8727
+E28,H2452001-1/E3,I2555002-3/E2,no,"Claude (IA), por revisar",Despachar mercadería no es atender al huésped,0.8374,0.7919
+E29,K2764001-1/E1,G2347002-3/E2,no,"Claude (IA), por revisar",Abrir la ventanilla no es dirigir el área de cajas,0.8372,0.8787
+E30,K2764001-1/E2,G2347002-3/E1,no,"Claude (IA), por revisar",Atender operaciones no es medir la gestión del área,0.8371,0.8127
+E31,K2764001-3/E1,G2347002-1/E3,no,"Claude (IA), por revisar",Dirigir la bóveda no es cuadrar la propia caja,0.8357,0.8661
+E32,K2764001-2/E1,G2347002-1/E3,no,"Claude (IA), por revisar",Habilitar las cajas del personal no es cuadrar la propia caja,0.8349,0.8421
+E33,K2764001-3/E1,G2347002-2/E2,no,"Claude (IA), por revisar",Dirigir la bóveda no es supervisar el área de caja,0.8346,0.8322
+E34,K2764001-2/E2,G2347002-3/E1,no,"Claude (IA), por revisar",Supervisar operaciones no es medir la gestión del área,0.8321,0.832
+E35,H2452001-1/E3,G2347002-1/E2,no,"Claude (IA), por revisar",Despachar mercadería no es cobrar,0.8289,0.8085
+E36,K2764001-3/E1,G2347002-1/E1,no,"Claude (IA), por revisar",Dirigir la bóveda no es abrir la propia caja,0.8223,0.8788
+E37,K2764001-1/E3,G2347002-2/E2,no,"Claude (IA), por revisar",Cuadrar la propia caja no es supervisar el área,0.818,0.8189
+E38,H2452001-3/E1,G2347002-3/E2,no,"Claude (IA), por revisar",Dirigir el almacén no es dirigir el área de cajas,0.8179,0.8351
+E39,M2981001-2/E1,I2555002-1/E1,no,"Claude (IA), por revisar",Planificar la limpieza de un equipo no es organizar la propia (distinto nivel),0.8161,0.8841
+E40,H2452001-1/E3,G2347002-1/E3,no,"Claude (IA), por revisar",Despachar mercadería no es cuadrar la caja,0.8127,0.8103
+E41,K2764001-3/E2,G2347002-3/E2,no_se,"Claude (IA), por revisar","Las dos dirigen el área de caja, pero una gestiona documentos financieros y otra al personal",0.8124,0.8736
+E42,H2452001-3/E1,G2347002-1/E3,no,"Claude (IA), por revisar",Dirigir el almacén no es cuadrar la caja,0.8106,0.7636
+E43,K2764001-1/E1,G2347002-2/E2,no,"Claude (IA), por revisar",Abrir la ventanilla no es supervisar el área de caja,0.8106,0.8829
+E44,K2764001-2/E1,G2347002-2/E2,no,"Claude (IA), por revisar",Controlar la apertura y el cierre no es supervisar las operaciones del día,0.8104,0.8537
+E45,K2764001-3/E2,G2347002-1/E3,no,"Claude (IA), por revisar",Gestionar recursos financieros no es cuadrar la propia caja,0.8087,0.8371
+E46,K2764001-1/E3,G2347002-3/E1,no,"Claude (IA), por revisar",Cuadrar la caja no es medir la gestión del área,0.807,0.8165
+E47,M2981001-1/E3,S3497002-2/E3,si,"Claude (IA), por revisar",Las dos ordenan los muebles y objetos del espacio a cargo,0.8057,0.8229
+E48,S3497002-2/E1,I2555002-1/E2,no,"Claude (IA), por revisar",Preparar los productos y limpiar son pasos distintos,0.8051,0.8571
+E49,H2452001-1/E2,I2555002-3/E2,no,"Claude (IA), por revisar",Almacenar mercadería no es atender al huésped,0.8046,0.7507
+E50,M2981001-1/E3,H2452001-2/E1,no,"Claude (IA), por revisar",Ordenar el área no es revisar montacargas,0.8041,0.7931
+E51,K2764001-3/E2,G2347002-2/E2,no_se,"Claude (IA), por revisar","Las dos supervisan el área de caja, pero una además gestiona documentos financieros",0.8011,0.8572
+X01,M2981001-1/E2,S3497002-2/E2,si,"Claude (IA), por revisar",Las dos limpian: áreas de un establecimiento o muebles y espacios de una casa,0.7875,0.8386
+X02,S3497002-2/E2,I2555002-1/E2,si,"Claude (IA), por revisar",Las dos limpian: una casa o las áreas de un hotel,0.7995,0.8545
+X03,G2347002-1/E2,K2764001-1/E2,no,Santiago (26-10),"Comparten la base de recibir y contar dinero, pero las operaciones del banco cuentan como lo que falta (decisión de Santiago, D-058)",0.7884,0.8018
+X04,M2981001-1/E1,S3497002-2/E1,si,"Claude (IA), por revisar",Las dos preparan equipos y productos de limpieza antes de limpiar,0.7918,0.8467

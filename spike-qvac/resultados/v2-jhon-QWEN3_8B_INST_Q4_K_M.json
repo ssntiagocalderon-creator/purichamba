@@ -1,0 +1,267 @@
+{
+ "audio": "audio/jhon.wav",
+ "modelo": "QWEN3_8B_INST_Q4_K_M",
+ "relato": "Hola, me llamo John, tengo 34 años. Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga, y cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla. También le instalo el sistema de nuevo y recupero las fotos de los clientes. Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio. Llevo la cuenta de lo que entra y sale en un cuaderno y compro los repuestos en el centro de Lima. Los sábados le enseño a mi sobrino que me ayuda. No tengo ningún certificado, todo lo aprendí mirando videos y practicando.",
+ "actividades": [
+  {
+   "actividad": "arreglar celulares",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares",
+   "candidatos": [
+    {
+     "codigo": "M2982001-3",
+     "score": 0.315,
+     "coincide": false
+    },
+    {
+     "codigo": "J2662002-1",
+     "score": 0.312,
+     "coincide": false
+    },
+    {
+     "codigo": "J2661002-3",
+     "score": 0.296,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cambiar pantallas",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas",
+   "candidatos": [
+    {
+     "codigo": "G2345005-1",
+     "score": 0.277,
+     "coincide": false
+    },
+    {
+     "codigo": "J2661002-1",
+     "score": 0.259,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cambiar baterías",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga",
+   "candidatos": [
+    {
+     "codigo": "G2345005-1",
+     "score": 0.319,
+     "coincide": false
+    },
+    {
+     "codigo": "F2042004-1",
+     "score": 0.254,
+     "coincide": false
+    },
+    {
+     "codigo": "C1832006-1",
+     "score": 0.25,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cambiar pines de carga",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga",
+   "candidatos": [
+    {
+     "codigo": "F2042004-1",
+     "score": 0.35,
+     "coincide": false
+    },
+    {
+     "codigo": "F2043006-3",
+     "score": 0.345,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "revisar equipos con el multímetro",
+   "cita": "y cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla",
+   "candidatos": [
+    {
+     "codigo": "M2974002-2",
+     "score": 0.467,
+     "coincide": false
+    },
+    {
+     "codigo": "G2145004-1",
+     "score": 0.402,
+     "coincide": false
+    },
+    {
+     "codigo": "M2974002-1",
+     "score": 0.395,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "instalar sistema de nuevo",
+   "cita": "También le instalo el sistema de nuevo y recupero las fotos de los clientes",
+   "candidatos": [
+    {
+     "codigo": "R3390002-1",
+     "score": 0.41,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "recuperar fotos de los clientes",
+   "cita": "También le instalo el sistema de nuevo y recupero las fotos de los clientes",
+   "candidatos": [
+    {
+     "codigo": "J2661002-2",
+     "score": 0.386,
+     "coincide": false
+    },
+    {
+     "codigo": "K2764002-1",
+     "score": 0.385,
+     "coincide": false
+    },
+    {
+     "codigo": "C0715003-2",
+     "score": 0.37,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "atender a la gente",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio",
+   "candidatos": [
+    {
+     "codigo": "Q3288004-1",
+     "score": 0.47,
+     "coincide": false
+    },
+    {
+     "codigo": "Q3288004-3",
+     "score": 0.458,
+     "coincide": false
+    },
+    {
+     "codigo": "Q3288003-1",
+     "score": 0.445,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "explicar qué tiene su equipo",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio",
+   "candidatos": [
+    {
+     "codigo": "H2452001-2",
+     "score": 0.383,
+     "coincide": false
+    },
+    {
+     "codigo": "J2662002-3",
+     "score": 0.344,
+     "coincide": false
+    },
+    {
+     "codigo": "Q3288003-3",
+     "score": 0.337,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "dar el precio",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio",
+   "candidatos": [
+    {
+     "codigo": "A0102002-1",
+     "score": 0.363,
+     "coincide": false
+    },
+    {
+     "codigo": "C0610020-1",
+     "score": 0.362,
+     "coincide": false
+    },
+    {
+     "codigo": "O3084001-1",
+     "score": 0.352,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "llevar la cuenta de lo que entra y sale",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno",
+   "candidatos": [
+    {
+     "codigo": "I2555002-2",
+     "score": 0.418,
+     "coincide": false
+    },
+    {
+     "codigo": "I2555001-2",
+     "score": 0.408,
+     "coincide": false
+    },
+    {
+     "codigo": "I2555002-3",
+     "score": 0.401,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "comprar repuestos en el centro de Lima",
+   "cita": "y compro los repuestos en el centro de Lima",
+   "candidatos": [
+    {
+     "codigo": "G2345005-1",
+     "score": 0.369,
+     "coincide": false
+    },
+    {
+     "codigo": "R3390002-1",
+     "score": 0.326,
+     "coincide": false
+    },
+    {
+     "codigo": "J2662002-1",
+     "score": 0.324,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "enseñar a mi sobrino que me ayuda",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda",
+   "candidatos": [
+    {
+     "codigo": "Q3288003-2",
+     "score": 0.374,
+     "coincide": false
+    },
+    {
+     "codigo": "M2971001-1",
+     "score": 0.369,
+     "coincide": false
+    },
+    {
+     "codigo": "H2449001-1",
+     "score": 0.365,
+     "coincide": false
+    }
+   ]
+  }
+ ],
+ "competencias": {},
+ "tiempos": {
+  "voz_a_texto": 0.2,
+  "actividades": 26.3,
+  "busqueda": 0.2,
+  "verificacion_si_no": 30.1
+ }
+}

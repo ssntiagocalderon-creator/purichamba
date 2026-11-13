@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-10-28T00:05:29.991Z",
+  "url_configurada": true,
+  "modelo_configurado": "qwen-38-27b",
+  "modelos": [
+    "qwen-38-27b"
+  ],
+  "explicacion": {
+    "segundos": 2.6,
+    "texto": "",
+    "modelo": "qwen-38-27b",
+    "uso": {
+      "completion_tokens": 200,
+      "prompt_tokens": 133,
+      "total_tokens": 333,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  "json_schema": {
+    "segundos": 2.5,
+    "respetado": false,
+    "texto": "{"
+  }
+}

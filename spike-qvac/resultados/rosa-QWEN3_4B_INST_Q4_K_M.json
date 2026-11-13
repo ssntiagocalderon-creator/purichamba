@@ -1,0 +1,1290 @@
+{
+ "audio": "audio/rosa.wav",
+ "modelo": "QWEN3_4B_INST_Q4_K_M",
+ "relato": "Me llamo Rosa, tengo 47 años y vivo en Juliaca. Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma. Tengo dos máquinas, una recta y una remalladora, y yo misma les doy mantenimiento. En temporada de colegio, contrato a dos vecinas y les reparto el trabajo. Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno. Quisiera trabajar en una empresa de confecciones, pero me piden certificado.",
+ "actividades": [
+  {
+   "actividad": "coser",
+   "cita": "coso en mi casa"
+  },
+  {
+   "actividad": "hacer polleras",
+   "cita": "hago polleras, chompas y uniformes para colegios"
+  },
+  {
+   "actividad": "hacer chompas",
+   "cita": "hago polleras, chompas y uniformes para colegios"
+  },
+  {
+   "actividad": "hacer uniformes para colegios",
+   "cita": "hago polleras, chompas y uniformes para colegios"
+  },
+  {
+   "actividad": "tomar medidas",
+   "cita": "tomo las medidas"
+  },
+  {
+   "actividad": "sacar los moldes",
+   "cita": "saco los moldes"
+  },
+  {
+   "actividad": "cortar la tela",
+   "cita": "corto la tela yo misma"
+  },
+  {
+   "actividad": "dar mantenimiento a las máquinas",
+   "cita": "yo misma les doy mantenimiento"
+  },
+  {
+   "actividad": "contratar a dos vecinas",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "actividad": "repartir el trabajo",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "actividad": "vender en la feria los domingos",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "actividad": "vender por WhatsApp",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "actividad": "llevar las cuentas en un cuaderno",
+   "cita": "llevo mis cuentas en un cuaderno"
+  }
+ ],
+ "habilidades_transversales": [
+  {
+   "habilidad": "atención al cliente",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "habilidad": "manejo de personal",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "habilidad": "cálculo",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "habilidad": "ventas",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  }
+ ],
+ "candidatos": {
+  "C0715001-2": {
+   "score": 0.43591280301860735,
+   "por": "coser"
+  },
+  "C0713005-2": {
+   "score": 0.38909602992597214,
+   "por": "coser"
+  },
+  "C0714001-2": {
+   "score": 0.38647072969599217,
+   "por": "coser"
+  },
+  "C0714004-1": {
+   "score": 0.46976320018473905,
+   "por": "cortar la tela"
+  },
+  "C0610013-1": {
+   "score": 0.34160097053899635,
+   "por": "hacer polleras"
+  },
+  "C0611003-1": {
+   "score": 0.33799808819186933,
+   "por": "hacer polleras"
+  },
+  "C1423003-1": {
+   "score": 0.32848817072966435,
+   "por": "hacer polleras"
+  },
+  "C1423001-1": {
+   "score": 0.3225815034172727,
+   "por": "hacer polleras"
+  },
+  "C1423001-3": {
+   "score": 0.30057983418469575,
+   "por": "hacer chompas"
+  },
+  "C0714003-2": {
+   "score": 0.4320858266274127,
+   "por": "hacer uniformes para colegios"
+  },
+  "C0714004-4": {
+   "score": 0.44151682559578764,
+   "por": "cortar la tela"
+  },
+  "C0714004-2": {
+   "score": 0.5171898059194204,
+   "por": "cortar la tela"
+  },
+  "ECL-T001A": {
+   "score": 0.4116374619523713,
+   "por": "tomar medidas"
+  },
+  "M2974001-2": {
+   "score": 0.3642394499761231,
+   "por": "tomar medidas"
+  },
+  "A0102002-1": {
+   "score": 0.3739872691772076,
+   "por": "sacar los moldes"
+  },
+  "A0102008-1": {
+   "score": 0.31536189507308193,
+   "por": "tomar medidas"
+  },
+  "F2041007-2": {
+   "score": 0.3813204240916459,
+   "por": "sacar los moldes"
+  },
+  "F2041007-1": {
+   "score": 0.36812566213393016,
+   "por": "sacar los moldes"
+  },
+  "F2043014-1": {
+   "score": 0.3645252403226559,
+   "por": "sacar los moldes"
+  },
+  "C0714004-3": {
+   "score": 0.511989341503921,
+   "por": "cortar la tela"
+  },
+  "C1833002-3": {
+   "score": 0.46321939176468935,
+   "por": "dar mantenimiento a las máquinas"
+  },
+  "J2661003-1": {
+   "score": 0.434680501310878,
+   "por": "dar mantenimiento a las máquinas"
+  },
+  "F2043018-1": {
+   "score": 0.41896241068661744,
+   "por": "dar mantenimiento a las máquinas"
+  },
+  "C1833003-2": {
+   "score": 0.4055211540468317,
+   "por": "dar mantenimiento a las máquinas"
+  },
+  "S3497002-4": {
+   "score": 0.37128004420487004,
+   "por": "contratar a dos vecinas"
+  },
+  "S3497002-2": {
+   "score": 0.37114715203741605,
+   "por": "contratar a dos vecinas"
+  },
+  "F2043003-3": {
+   "score": 0.3680475639346774,
+   "por": "contratar a dos vecinas"
+  },
+  "F2043012-2": {
+   "score": 0.3668133544346608,
+   "por": "contratar a dos vecinas"
+  },
+  "F2043017-3": {
+   "score": 0.4096813245733856,
+   "por": "repartir el trabajo"
+  },
+  "A0102010-1": {
+   "score": 0.404159667883613,
+   "por": "repartir el trabajo"
+  },
+  "F2043017-1": {
+   "score": 0.39694452552216997,
+   "por": "repartir el trabajo"
+  },
+  "A0102004-1": {
+   "score": 0.38168505852686513,
+   "por": "repartir el trabajo"
+  },
+  "C1832004-1": {
+   "score": 0.3484989214974304,
+   "por": "vender en la feria los domingos"
+  },
+  "F2043020-1": {
+   "score": 0.34137486611370405,
+   "por": "vender en la feria los domingos"
+  },
+  "A0102005-1": {
+   "score": 0.3388377902114373,
+   "por": "vender en la feria los domingos"
+  },
+  "J2661003-2": {
+   "score": 0.2915622668323654,
+   "por": "vender por WhatsApp"
+  },
+  "S3496001-4": {
+   "score": 0.28166839907696223,
+   "por": "vender por WhatsApp"
+  },
+  "F2043006-3": {
+   "score": 0.2762107390186222,
+   "por": "vender por WhatsApp"
+  },
+  "K2764001-2": {
+   "score": 0.3618845992781208,
+   "por": "llevar las cuentas en un cuaderno"
+  },
+  "K2764001-1": {
+   "score": 0.3598094509449143,
+   "por": "llevar las cuentas en un cuaderno"
+  },
+  "J2661002-3": {
+   "score": 0.48023850088672804,
+   "por": "atención al cliente"
+  },
+  "I2555004-3": {
+   "score": 0.47647695902691223,
+   "por": "atención al cliente"
+  },
+  "I2556002-4": {
+   "score": 0.47431889673540817,
+   "por": "atención al cliente"
+  },
+  "M2982001-3": {
+   "score": 0.47026179739089247,
+   "por": "atención al cliente"
+  },
+  "H2449002-4": {
+   "score": 0.4794392304388118,
+   "por": "manejo de personal"
+  },
+  "I2555004-1": {
+   "score": 0.4777106007799281,
+   "por": "manejo de personal"
+  },
+  "I2555004-2": {
+   "score": 0.4766635079063195,
+   "por": "manejo de personal"
+  },
+  "M2971009-2": {
+   "score": 0.30851471675541725,
+   "por": "cálculo"
+  },
+  "M2971006-1": {
+   "score": 0.30007458936621045,
+   "por": "cálculo"
+  },
+  "M2971006-2": {
+   "score": 0.2978064119369032,
+   "por": "cálculo"
+  },
+  "G2347002-1": {
+   "score": 0.32636744426606623,
+   "por": "ventas"
+  },
+  "I2556002-2": {
+   "score": 0.3172770106451021,
+   "por": "ventas"
+  },
+  "G2347002-3": {
+   "score": 0.31092056915112637,
+   "por": "ventas"
+  }
+ },
+ "competencias_ia": [
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    2,
+    3,
+    4
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    2,
+    3,
+    4
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    2,
+    3,
+    4
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0715001-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C1833002-3",
+   "actividades": [
+    8
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C1833003-2",
+   "actividades": [
+    8
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "ECL-T001A",
+   "actividades": [
+    8
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "A0102004-1",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "A0102010-1",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    5
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    5
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    5
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    5
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    5
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    5
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    9
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    7
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    7
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    7
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    7
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    7
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    7
+   ],
+   "confianza": "media"
+  }
+ ],
+ "confirmadas": [
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "confianza": "alta",
+   "cita": "coso en mi casa / hago polleras, chompas y uniformes para colegios / tomo las medidas / saco los moldes / corto la tela yo misma / yo misma les doy mantenimiento"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    2,
+    3,
+    4
+   ],
+   "confianza": "media",
+   "cita": "hago polleras, chompas y uniformes para colegios"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    2,
+    3,
+    4
+   ],
+   "confianza": "media",
+   "cita": "hago polleras, chompas y uniformes para colegios"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    2,
+    3,
+    4
+   ],
+   "confianza": "media",
+   "cita": "hago polleras, chompas y uniformes para colegios"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "alta",
+   "cita": "coso en mi casa"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "alta",
+   "cita": "coso en mi casa"
+  },
+  {
+   "codigo_ecl": "C0715001-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media",
+   "cita": "coso en mi casa"
+  },
+  {
+   "codigo_ecl": "C1833002-3",
+   "actividades": [
+    8
+   ],
+   "confianza": "alta",
+   "cita": "yo misma les doy mantenimiento"
+  },
+  {
+   "codigo_ecl": "C1833003-2",
+   "actividades": [
+    8
+   ],
+   "confianza": "media",
+   "cita": "yo misma les doy mantenimiento"
+  },
+  {
+   "codigo_ecl": "ECL-T001A",
+   "actividades": [
+    8
+   ],
+   "confianza": "alta",
+   "cita": "yo misma les doy mantenimiento"
+  },
+  {
+   "codigo_ecl": "A0102004-1",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "A0102010-1",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    12
+   ],
+   "confianza": "media",
+   "cita": "vendo en la feria los domingos y también por WhatsApp"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "llevo mis cuentas en un cuaderno"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    10
+   ],
+   "confianza": "alta",
+   "cita": "les reparto el trabajo"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta",
+   "cita": "saco los moldes"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta",
+   "cita": "saco los moldes"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta",
+   "cita": "saco los moldes"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta",
+   "cita": "saco los moldes"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta",
+   "cita": "saco los moldes"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    6
+   ],
+   "confianza": "alta",
+   "cita": "saco los moldes"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    5
+   ],
+   "confianza": "media",
+   "cita": "tomo las medidas"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    5
+   ],
+   "confianza": "media",
+   "cita": "tomo las medidas"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    5
+   ],
+   "confianza": "media",
+   "cita": "tomo las medidas"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    5
+   ],
+   "confianza": "media",
+   "cita": "tomo las medidas"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    5
+   ],
+   "confianza": "media",
+   "cita": "tomo las medidas"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    5
+   ],
+   "confianza": "media",
+   "cita": "tomo las medidas"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    9
+   ],
+   "confianza": "media",
+   "cita": "contrato a dos vecinas"
+  },
+  {
+   "codigo_ecl": "C0714004-1",
+   "actividades": [
+    7
+   ],
+   "confianza": "media",
+   "cita": "corto la tela yo misma"
+  },
+  {
+   "codigo_ecl": "C0714004-2",
+   "actividades": [
+    7
+   ],
+   "confianza": "media",
+   "cita": "corto la tela yo misma"
+  },
+  {
+   "codigo_ecl": "C0714004-3",
+   "actividades": [
+    7
+   ],
+   "confianza": "media",
+   "cita": "corto la tela yo misma"
+  },
+  {
+   "codigo_ecl": "C0714004-4",
+   "actividades": [
+    7
+   ],
+   "confianza": "media",
+   "cita": "corto la tela yo misma"
+  },
+  {
+   "codigo_ecl": "C0714001-2",
+   "actividades": [
+    7
+   ],
+   "confianza": "media",
+   "cita": "corto la tela yo misma"
+  },
+  {
+   "codigo_ecl": "C0714003-2",
+   "actividades": [
+    7
+   ],
+   "confianza": "media",
+   "cita": "corto la tela yo misma"
+  }
+ ],
+ "perfiles_cercanos": [
+  {
+   "perfil": "Operaciones de Corta",
+   "total": 1,
+   "tiene": [
+    "Motosierrista en tala"
+   ],
+   "faltan": []
+  },
+  {
+   "perfil": "MANEJO SILVICULTURAL",
+   "total": 1,
+   "tiene": [
+    "Obrero silvicultural"
+   ],
+   "faltan": []
+  },
+  {
+   "perfil": "Perfil Ocupacional de Corte de piezas para confección de prendas de vestir",
+   "total": 4,
+   "tiene": [
+    "Trazador (a)/Tizador",
+    "Tendedor(a)",
+    "Cortador (a)",
+    "Habilitador (a)"
+   ],
+   "faltan": []
+  },
+  {
+   "perfil": "Seguridad y salud en el trabajo",
+   "total": 1,
+   "tiene": [
+    "Seguridad y salud en el trabajo"
+   ],
+   "faltan": []
+  },
+  {
+   "perfil": "Perfil Ocupacional de Bordado para Confección Textil",
+   "total": 2,
+   "tiene": [
+    "Bordador(a)"
+   ],
+   "faltan": [
+    "Habilitador(a)"
+   ]
+  }
+ ],
+ "tiempos": {
+  "1_voz_a_texto": 0.2,
+  "carga_modelo_lenguaje": 3,
+  "2_actividades": 14.1,
+  "3_busqueda": 0.2,
+  "4_confirmacion": 81.7
+ }
+}

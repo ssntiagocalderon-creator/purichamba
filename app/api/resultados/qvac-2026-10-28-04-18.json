@@ -1,0 +1,328 @@
+{
+  "fecha": "2026-10-28T04:18:17.845Z",
+  "nota": "Relatos de personas ficticias. Prueba del prototipo app/ (Plan, D-055 y D-056).",
+  "equipo": {
+    "plataforma": "win32",
+    "arquitectura": "x64",
+    "node": "v26.7.0"
+  },
+  "pasos": {
+    "propuestas": "decision",
+    "equivalencias": "embeddings",
+    "explicacion": "tether"
+  },
+  "modelos": {
+    "decision": "LAYA_MULTILINGUAL_322M_Q8_0",
+    "embeddings": "EMBEDDINGGEMMA_300M_Q8_0",
+    "llm": "QWEN3_4B_INST_Q4_K_M"
+  },
+  "carga_segundos": {
+    "decision": 16.1,
+    "embeddings": 7.7,
+    "voz": 7.1
+  },
+  "decision": {
+    "segundos": 262.2,
+    "por_par_ms": 1049,
+    "equivalentes_con_umbral_actual": 246,
+    "minimo": 0.299,
+    "maximo": 0.992,
+    "mediana": 0.948,
+    "top15": [
+      {
+        "a": "H2452001-3",
+        "b": "S3497002-1",
+        "puntaje": 0.992
+      },
+      {
+        "a": "M2981001-2",
+        "b": "H2452001-3",
+        "puntaje": 0.991
+      },
+      {
+        "a": "M2981001-2",
+        "b": "S3497002-1",
+        "puntaje": 0.989
+      },
+      {
+        "a": "H2452001-3",
+        "b": "G2347008-1",
+        "puntaje": 0.988
+      },
+      {
+        "a": "H2452001-3",
+        "b": "I2555002-3",
+        "puntaje": 0.987
+      },
+      {
+        "a": "H2452001-3",
+        "b": "I2555002-2",
+        "puntaje": 0.986
+      },
+      {
+        "a": "I2555002-3",
+        "b": "S3497002-3",
+        "puntaje": 0.986
+      },
+      {
+        "a": "H2452001-3",
+        "b": "I2555002-1",
+        "puntaje": 0.985
+      },
+      {
+        "a": "H2452001-3",
+        "b": "K2764001-3",
+        "puntaje": 0.985
+      },
+      {
+        "a": "G2347007-1",
+        "b": "S3497002-1",
+        "puntaje": 0.985
+      },
+      {
+        "a": "G2347007-1",
+        "b": "K2764001-1",
+        "puntaje": 0.985
+      },
+      {
+        "a": "H2452001-3",
+        "b": "H2452004-3",
+        "puntaje": 0.983
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-1",
+        "puntaje": 0.983
+      },
+      {
+        "a": "H2452001-3",
+        "b": "G2347007-1",
+        "puntaje": 0.982
+      },
+      {
+        "a": "I2555002-2",
+        "b": "H2452004-2",
+        "puntaje": 0.981
+      }
+    ],
+    "calibracion": [
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-1",
+        "esperado": true,
+        "puntaje": 0.886
+      },
+      {
+        "a": "M2981001-1",
+        "b": "I2555002-1",
+        "esperado": true,
+        "puntaje": 0.464
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-2",
+        "esperado": true,
+        "puntaje": 0.924
+      },
+      {
+        "a": "S3497002-2",
+        "b": "M2981001-1",
+        "esperado": true,
+        "puntaje": 0.86
+      },
+      {
+        "a": "G2347002-3",
+        "b": "H2452004-1",
+        "esperado": false,
+        "puntaje": 0.945
+      }
+    ],
+    "umbral_sugerido": null,
+    "umbral_actual": 0.5
+  },
+  "embeddings": {
+    "segundos": 5.4,
+    "minimo": 0.512,
+    "maximo": 1,
+    "mediana": 0.631,
+    "top15": [
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-2",
+        "puntaje": 1
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-1",
+        "puntaje": 0.921
+      },
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-1",
+        "puntaje": 0.917
+      },
+      {
+        "a": "M2981001-2",
+        "b": "I2555002-1",
+        "puntaje": 0.914
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-2",
+        "puntaje": 0.897
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-1",
+        "puntaje": 0.879
+      },
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-2",
+        "puntaje": 0.851
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-3",
+        "puntaje": 0.832
+      },
+      {
+        "a": "I2555002-1",
+        "b": "S3497002-2",
+        "puntaje": 0.83
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-3",
+        "puntaje": 0.825
+      },
+      {
+        "a": "I2555002-2",
+        "b": "S3497002-2",
+        "puntaje": 0.78
+      },
+      {
+        "a": "H2452001-3",
+        "b": "K2764001-3",
+        "puntaje": 0.776
+      },
+      {
+        "a": "M2981001-2",
+        "b": "S3497002-2",
+        "puntaje": 0.775
+      },
+      {
+        "a": "I2555002-1",
+        "b": "S3497002-3",
+        "puntaje": 0.765
+      },
+      {
+        "a": "M2981001-1",
+        "b": "I2555002-1",
+        "puntaje": 0.763
+      }
+    ],
+    "calibracion": [
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-1",
+        "esperado": true,
+        "puntaje": 0.917
+      },
+      {
+        "a": "M2981001-1",
+        "b": "I2555002-1",
+        "esperado": true,
+        "puntaje": 0.763
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-2",
+        "esperado": true,
+        "puntaje": 1
+      },
+      {
+        "a": "S3497002-2",
+        "b": "M2981001-1",
+        "esperado": true,
+        "puntaje": 0.642
+      },
+      {
+        "a": "G2347002-3",
+        "b": "H2452004-1",
+        "esperado": false,
+        "puntaje": 0.724
+      }
+    ],
+    "umbral_sugerido": null
+  },
+  "propuestas": [
+    {
+      "ocupacion": "cajero",
+      "relato": "Atiendo a los clientes, cobro en caja con efectivo y tarjeta, y al cerrar cuadro la caja con mi supervisora.",
+      "segundos": 17.4,
+      "propuestas": [
+        {
+          "codigo": "G2347002-1",
+          "cita": "cobro en caja con efectivo",
+          "probabilidad": 0.626,
+          "texto": "Cobrar y registrar las ventas en caja"
+        },
+        {
+          "codigo": "G2347002-2",
+          "cita": "Atiendo a los clientes",
+          "probabilidad": 0.803,
+          "texto": "Controlar que la caja cuadre y esté en orden"
+        },
+        {
+          "codigo": "G2347002-3",
+          "cita": "cobro en caja con efectivo",
+          "probabilidad": 0.661,
+          "texto": "Encargarte del área de cajas"
+        }
+      ]
+    },
+    {
+      "ocupacion": "limpieza",
+      "relato": "Limpio las oficinas y los baños del edificio, y dejo todo listo antes de que lleguen los trabajadores.",
+      "segundos": 12.5,
+      "propuestas": [
+        {
+          "codigo": "M2981001-1",
+          "cita": "Limpio las oficinas",
+          "probabilidad": 0.633,
+          "texto": "Dejar limpias y listas las áreas que te asignan"
+        },
+        {
+          "codigo": "M2981001-2",
+          "cita": "Limpio las oficinas",
+          "probabilidad": 0.934,
+          "texto": "Supervisar que la limpieza de las áreas se haga bien"
+        }
+      ]
+    },
+    {
+      "ocupacion": "almacen",
+      "relato": "Recibo la mercadería, la ordeno en los estantes y la muevo con la carretilla hidráulica.",
+      "segundos": 16.1,
+      "propuestas": [
+        {
+          "codigo": "H2452001-2",
+          "cita": "la muevo con la carretilla hidráulica",
+          "probabilidad": 0.876,
+          "texto": "Mover la mercadería con equipos de carga y descarga"
+        }
+      ]
+    }
+  ],
+  "explicacion": {
+    "segundos": 2.1,
+    "generada_por": "tether",
+    "texto": "Para pasar de ser cajero de tienda a cajero de banco, ya tienes la base de atender la caja y controlarla para que cuadre. Solo te falta aprender a administrar la bóveda y las operaciones financieras específicas de una entidad bancaria."
+  },
+  "veredicto": {
+    "propuestas_menos_de_10s": false,
+    "explicacion_menos_de_10s": true,
+    "laya_separa_calibracion": false
+  }
+}

@@ -1,0 +1,18 @@
+codigo_a,codigo_b,es_equivalente,quien,nota
+# Pares de estándares que el equipo revisó a mano (D-053, Plan sección 10.3).
+# es_equivalente: si | no. Lo validado manda sobre la similitud y el umbral.
+# Para activar una fila: revisarla, poner el nombre de quien la revisó en "quien" y borrar la almohadilla.
+#
+# Sugerencias para revisar (Claude, 25-10). Las dos primeras salen de los ejemplos del catálogo del Plan [C-52]:
+G2347002-1,K2764001-1,si,Claude (pedido por César 28-10),Las dos piden hacer operaciones en caja (tienda y entidad financiera)
+# M2981001-1,I2555002-1,si,,Las dos piden limpiar o dejar listas las áreas asignadas
+G2347002-2,K2764001-2,si,Claude (pedido por César 28-10),Las dos piden controlar las operaciones de caja
+# S3497002-2,M2981001-1,si,,Mantener limpio un espacio (hogar) y habilitar áreas (establecimiento): ¿es la misma?
+# El modo sin IA las une solo por la palabra "administrar"; probablemente no son la misma:
+G2347002-3,H2452004-1,no,Claude (pedido por César 28-10),Administrar el área de caja vs. apoyar en labores administrativas de compras
+#
+# Recorrido de cajero de la demo (Claude, 28-10, pedido por César). Con EmbeddingGemma estos pares
+# quedan cerca del umbral (0,76 a 0,83), pero la bóveda es una tarea propia del banco:
+G2347002-1,K2764001-3,no,Claude (pedido por César 28-10),Cobrar ventas en caja vs. administrar la bóveda y las operaciones financieras
+G2347002-2,K2764001-3,no,Claude (pedido por César 28-10),Cuadrar la caja de la tienda vs. administrar la bóveda (0.83 con embeddings)
+G2347002-3,K2764001-3,no,Claude (pedido por César 28-10),Encargarse del área de cajas vs. administrar la bóveda (0.82 con embeddings)

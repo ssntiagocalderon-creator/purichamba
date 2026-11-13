@@ -1,0 +1,28 @@
+codigo_ecl,texto_simple,quien
+# Una fila por estándar: cómo lo diría la persona, en palabras de todos los días (D-043).
+# Lo escribe el equipo. Si falta, la app muestra el texto oficial. Las líneas que empiezan con # se ignoran.
+# BORRADOR de Claude (25-10): solo reformula el texto oficial, sin agregar tareas. Revisar con Diseño de la experiencia y, si se puede, con personas de cada ocupación.
+M2981001-1,Dejar limpias y listas las áreas que te asignan,Claude (borrador por revisar)
+M2981001-2,Supervisar que la limpieza de las áreas se haga bien,Claude (borrador por revisar)
+H2452001-1,Guardar y ordenar los productos en el almacén,Claude (borrador por revisar)
+H2452001-2,Mover la mercadería con equipos de carga y descarga,Claude (borrador por revisar)
+H2452001-3,Supervisar el trabajo del almacén,Claude (borrador por revisar)
+G2347002-1,Cobrar y registrar las ventas en caja,Claude (borrador por revisar)
+G2347002-2,Controlar que la caja cuadre y esté en orden,Claude (borrador por revisar)
+G2347002-3,Encargarte del área de cajas,Claude (borrador por revisar)
+G2347007-1,Vender productos o servicios y cumplir metas de venta,Claude (borrador por revisar)
+G2347008-1,Atender al cliente después de la venta,Claude (borrador por revisar)
+I2555002-1,Limpiar las áreas que te asignan en el hotel,Claude (borrador por revisar)
+I2555002-2,Arreglar y preparar las habitaciones para el huésped,Claude (borrador por revisar)
+I2555002-3,Atender y tratar con los huéspedes,Claude (borrador por revisar)
+S3497002-1,Cocinar para la familia con higiene,Claude (borrador por revisar)
+S3497002-2,Mantener la casa ordenada y limpia,Claude (borrador por revisar)
+S3497002-3,Lavar y ordenar la ropa,Claude (borrador por revisar)
+S3497002-4,"Cuidar a niños, personas mayores, mascotas o plantas de la casa",Claude (borrador por revisar)
+H2452004-1,Apoyar con el trabajo administrativo del área de compras,Claude (borrador por revisar)
+H2452004-2,"Comprar lo que necesita la empresa a tiempo, con calidad y buen precio",Claude (borrador por revisar)
+H2452004-3,Organizar a las personas y los recursos para hacer las compras,Claude (borrador por revisar)
+H2452004-4,Definir cómo se hacen las compras en la empresa,Claude (borrador por revisar)
+K2764001-1,Atender operaciones de caja en un banco o financiera,Claude (borrador por revisar)
+K2764001-2,Controlar que la caja del banco cuadre y esté en orden,Claude (borrador por revisar)
+K2764001-3,Administrar la bóveda y las operaciones financieras,Claude (borrador por revisar)

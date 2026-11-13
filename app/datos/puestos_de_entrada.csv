@@ -1,0 +1,11 @@
+ocupacion_id,competencias,quien,nota
+# Qué estándares definen el puesto al que se postula. La app cuenta sus tareas (D-058, issue #6).
+# Los demás estándares de la ocupación son puestos de supervisión o jefatura. Propuesta de Claude (29-10), por revisar.
+cajero,G2347002-1,Claude (29-10),Cajero(a)
+caja_financiera,K2764001-1,Claude (29-10),"Cajero, promotor de servicios, recibidor/pagador: las 3 tareas de D-058"
+almacen,H2452001-1,Claude (29-10),Almacenero/operario de almacén
+compras,H2452004-1,Claude (29-10),Auxiliar administrativo de compras. Sin tareas en el detalle: se cuenta el estándar entero
+housekeeping,I2555002-1 I2555002-2 I2555002-3,Claude (29-10),Cuartelero(a): los tres estándares son del mismo puesto
+limpieza,M2981001-1,Claude (29-10),Operario(a) de limpieza
+trabajador_hogar,S3497002-1 S3497002-2 S3497002-3 S3497002-4,Claude (29-10),Las cuatro funciones del perfil de trabajador/a del hogar
+vendedor,G2347007-1,Claude (29-10),Vendedor

@@ -1,0 +1,19 @@
+ocupacion_id,region,titulo,empresa,url,fecha_publicacion,es_simulada
+# Vacantes reales copiadas a mano de Empleos Perú (D-050): 5 o 6 por ocupación de destino.
+# url es obligatoria (enlace a la publicación original); fecha_publicacion en formato AAAA-MM-DD.
+# es_simulada: si | no. Si es simulada, la app la rotula así.
+housekeeping,Lima,CUARTELERO,INVERSIONES CAROSA SOCIEDAD ANONIMA CERRADA - INVERSIONES CAROSA S.A.C.,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=1df54778505b4f2787a1119cf41fc84d,2026-10-29,no
+housekeeping,No indica,PERSONAL DE LIMPIEZA – HOUSEKEEPING H.K,Empresa reservada,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=f0523968dd5948548bfbd8d05d2ae264,2026-10-23,no
+housekeeping,No indica,HOUSEKEEPER – SONESTA,Empresa reservada,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=cb3c58f24c9c4bdd9ba5e0ba8c3543a3,2026-10-23,no
+housekeeping,No indica,HOUSEKEEPING (PARIWANA HOTELES ),Empresa reservada,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=ee7768866aab419ca486adaa5caba6b5,2026-10-23,no
+housekeeping,No indica,HOUSEKEEPING (PARIWANA HOTELES),Empresa reservada,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=01959cab1efa433090c9258b99dc39d0,2026-10-23,no
+trabajador_hogar,Lima,Empleada del Hogar,ABOZZA CONSULTORA DE TALENTO HUMANO E.I.R.L.,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=2ea7958e80fa4b4085cc332af2aecfea,2026-10-28,no
+trabajador_hogar,Lima,Trabajadora del hogar,CERDAN LIMAY TOMAS HUMBERTO,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=df147211dbeb42468810a9ddebf9b165,2026-10-15,no
+trabajador_hogar,Amazonas,TRABAJADORA DEL HOGAR/AMA DE CASA,INVERSIONES & SERVICIOS ECOLAC CHACHAPOYAS S.R.L.,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=0447f95dc910402c9b31f95cb065bbcc,2026-10-23,no
+trabajador_hogar,Amazonas,EMPLEADA DOMÉSTICA,MENDOZA GUEVARA DANI DE JESUS,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=ba714ec361d9481898d44f381e7fca86,2026-10-23,no
+caja_financiera,Lima,AUXILIAR DE OPERACIONES - AGENCIA JESUS MARIA,CAJA HUANCAYO,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=0e218db6cd5d43a48f1191af7d386e8d,2026-10-29,no
+caja_financiera,Puno,AUXILIAR DE OPERACIONES - AGENCIA JORGE CHAVEZ - JULIACA,CAJA HUANCAYO,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=d4548fa09dea4f64a5875505fd343f5b,2026-10-26,no
+caja_financiera,No indica,REPRESENTANTE DE SERVICIOS - CAJA CUSCO,Empresa reservada,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=ed9828d75b7543b2bc73a83d67e741c0,2026-10-21,no
+compras,Lima,AUXILIAR DE COMPRAS,ALTISA  SAC,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=88dd3fb936a24e0fa78cc82329e8b440,2026-10-28,no
+compras,Lima,ANALISTA DE COMPRAS,CHEMTRADE S.A.C.,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=b620a08b3203435ab3e910d37c40e25e,2026-10-27,no
+compras,Lima,"ENCARGADO(A)DE COMPRAS, DESPACHO Y ALMACÉN",PRO-SELLER S.R.L.,https://mtpe-candidatos.empleosperu.gob.pe/search-jobs?jobId=0a7d9febd09f48a7853a9d3d406ccc9e,2026-09-08,no

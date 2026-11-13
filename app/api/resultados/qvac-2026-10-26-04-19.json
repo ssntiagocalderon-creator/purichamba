@@ -1,0 +1,195 @@
+{
+  "fecha": "2026-10-26T04:19:42.209Z",
+  "nota": "Relatos de personas ficticias. Prueba del prototipo app/ (Plan, D-055).",
+  "equipo": {
+    "plataforma": "darwin",
+    "arquitectura": "arm64",
+    "node": "v24.18.0"
+  },
+  "modelos": {
+    "embeddings": "EMBEDDINGGEMMA_300M_Q8_0",
+    "llm": "QWEN3_8B_INST_Q4_K_M"
+  },
+  "carga_segundos": {
+    "embeddings": 1.7,
+    "llm": 6.8
+  },
+  "embeddings": {
+    "segundos": 0.1,
+    "dimensiones": 768
+  },
+  "similitudes": {
+    "minimo": 0.5553,
+    "maximo": 0.9603,
+    "mediana": 0.7132,
+    "top15": [
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-2",
+        "similitud": 0.9603
+      },
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-1",
+        "similitud": 0.9248
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-1",
+        "similitud": 0.914
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-2",
+        "similitud": 0.9091
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-1",
+        "similitud": 0.8985
+      },
+      {
+        "a": "M2981001-2",
+        "b": "I2555002-1",
+        "similitud": 0.895
+      },
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-2",
+        "similitud": 0.8839
+      },
+      {
+        "a": "G2347002-3",
+        "b": "K2764001-3",
+        "similitud": 0.8577
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-3",
+        "similitud": 0.8543
+      },
+      {
+        "a": "I2555002-1",
+        "b": "S3497002-2",
+        "similitud": 0.8485
+      },
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-3",
+        "similitud": 0.8222
+      },
+      {
+        "a": "H2452001-3",
+        "b": "G2347002-2",
+        "similitud": 0.8117
+      },
+      {
+        "a": "G2347002-3",
+        "b": "H2452004-4",
+        "similitud": 0.8081
+      },
+      {
+        "a": "H2452001-3",
+        "b": "G2347002-3",
+        "similitud": 0.8045
+      },
+      {
+        "a": "M2981001-2",
+        "b": "S3497002-2",
+        "similitud": 0.8026
+      }
+    ]
+  },
+  "calibracion": {
+    "pares": [
+      {
+        "a": "G2347002-1",
+        "b": "K2764001-1",
+        "esperado": true,
+        "similitud": 0.9248
+      },
+      {
+        "a": "M2981001-1",
+        "b": "I2555002-1",
+        "esperado": true,
+        "similitud": 0.7778
+      },
+      {
+        "a": "G2347002-2",
+        "b": "K2764001-2",
+        "esperado": true,
+        "similitud": 0.9603
+      },
+      {
+        "a": "S3497002-2",
+        "b": "M2981001-1",
+        "esperado": true,
+        "similitud": 0.7081
+      },
+      {
+        "a": "G2347002-3",
+        "b": "H2452004-1",
+        "esperado": false,
+        "similitud": 0.7754
+      }
+    ],
+    "umbral_sugerido": null,
+    "umbral_actual": 0.6
+  },
+  "propuestas": [
+    {
+      "ocupacion": "cajero",
+      "relato": "Atiendo a los clientes, cobro en caja con efectivo y tarjeta, y al cerrar cuadro la caja con mi supervisora.",
+      "segundos": 4.5,
+      "propuestas": [
+        {
+          "codigo": "G2347002-1",
+          "cita": "cobro en caja con efectivo y tarjeta",
+          "texto": "Cobrar y registrar las ventas en caja"
+        },
+        {
+          "codigo": "G2347002-2",
+          "cita": "al cerrar cuadro la caja con mi supervisora",
+          "texto": "Controlar que la caja cuadre y esté en orden"
+        }
+      ]
+    },
+    {
+      "ocupacion": "limpieza",
+      "relato": "Limpio las oficinas y los baños del edificio, y dejo todo listo antes de que lleguen los trabajadores.",
+      "segundos": 3,
+      "propuestas": [
+        {
+          "codigo": "M2981001-1",
+          "cita": "Limpio las oficinas y los baños del edificio, y dejo todo listo antes de que lleguen los trabajadores.",
+          "texto": "Dejar limpias y listas las áreas que te asignan"
+        }
+      ]
+    },
+    {
+      "ocupacion": "almacen",
+      "relato": "Recibo la mercadería, la ordeno en los estantes y la muevo con la carretilla hidráulica.",
+      "segundos": 3.8,
+      "propuestas": [
+        {
+          "codigo": "H2452001-1",
+          "cita": "Recibo la mercadería, la ordeno en los estantes",
+          "texto": "Guardar y ordenar los productos en el almacén"
+        },
+        {
+          "codigo": "H2452001-2",
+          "cita": "la muevo con la carretilla hidráulica",
+          "texto": "Mover la mercadería con equipos de carga y descarga"
+        }
+      ]
+    }
+  ],
+  "explicacion": {
+    "segundos": 2.6,
+    "texto": "<think>\n\n</think>\n\nPorque ya sabe atender operaciones de caja y controlar que cuadre, pero le falta administrar la bóveda y las operaciones financieras, que son más complejas y específicas de un banco o financiera."
+  },
+  "veredicto": {
+    "propuestas_menos_de_10s": true,
+    "explicacion_menos_de_10s": true
+  }
+}

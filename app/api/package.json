@@ -1,0 +1,33 @@
+{
+  "name": "pasaporte-de-oficio-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API del prototipo Pasaporte de Oficio (Innovathon Ulima x Tether)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.17"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "db:esquema": "node --env-file-if-exists=.env scripts/aplicar_esquema.js",
+    "datos:cargar": "node --env-file-if-exists=.env scripts/cargar_datos.js",
+    "datos:precalcular": "node --env-file-if-exists=.env scripts/precalcular.js",
+    "preparar": "npm run db:esquema && npm run datos:cargar && npm run datos:precalcular",
+    "qvac:probar": "node --env-file-if-exists=.env scripts/probar_qvac.js",
+    "pares:similitud": "node --env-file-if-exists=.env scripts/pares_similitud.js",
+    "voz:probar": "node --env-file-if-exists=.env scripts/probar_voz.js",
+    "tether:probar": "node --env-file-if-exists=.env scripts/probar_tether.js",
+    "demo":"npm --prefix ../web run build && node --env-file-if-exists=.env src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/static": "^8.0.0",
+    "fastify": "^5.2.0",
+    "pg": "^8.13.0"
+  },
+  "optionalDependencies": {
+    "@qvac/sdk": "^0.22.0"
+  }
+}

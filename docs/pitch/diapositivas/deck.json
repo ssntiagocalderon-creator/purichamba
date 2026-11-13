@@ -1,0 +1,18 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-28T17:35:00Z"},
+  "lists": "css",
+  "title": "Pitch PURICHAMBA",
+  "cover": "portada",
+  "order": ["portada", "caso", "problema", "solucion", "demo", "como", "crecer", "cierre"],
+  "sections": {
+    "s1": {"description": "La persona y el problema", "start": "portada"},
+    "s2": {"description": "La solución y cómo se ve", "start": "solucion"},
+    "s3": {"description": "Por qué funciona y cómo crece", "start": "como"}
+  },
+  "faces": {
+    "rubik": {"family": "Rubik", "href": "https://fonts.googleapis.com/css2?family=Rubik:wght@400..800&display=swap"},
+    "public-sans": {"family": "Public Sans", "href": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@400..700&display=swap"}
+  },
+  "designSystems": []
+}

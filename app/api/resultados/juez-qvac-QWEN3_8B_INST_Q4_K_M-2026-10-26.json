@@ -1,0 +1,652 @@
+{
+ "modelo": "QWEN3_8B_INST_Q4_K_M",
+ "segundos": 4787.440681042,
+ "vp": 2,
+ "fn": 10,
+ "fp": 0,
+ "vn": 95,
+ "resultados": [
+  {
+   "par": "P01",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el despacho de existencias, incluyendo actividades como picking, packing y registro de salidas. La tarea B se enfoca en la gestión de recursos en un entorno financiero, con actividades como supervisión de operaciones de caja, actualización de tarifarios y distribución de material publicitario. Aunque ambas implican cumplir con procedimientos y normativas, las actividades principales y el contexto operativo son diferentes."
+  },
+  {
+   "par": "P02",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en el almacenamiento y gestión de existencias, incluyendo clasificación, codificación, apilamiento y organización del espacio. La Tarea B se enfoca en la supervisión del área de caja, incluyendo verificación de productos, check list de operatividad, identificación de desperfectos y manejo de monedas y billetes. Son funciones diferentes dentro del mismo sector, pero no la misma acción sobre lo mismo."
+  },
+  {
+   "par": "P03",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la ordenación y verificación del estado de los enseres e infraestructura según políticas y normativa vigente, mientras que la tarea B se centra en la preparación de insumos e implementos de limpieza según indicaciones y condiciones de SST. Aunque ambas involucran manejo de materiales, sus objetivos y acciones específicas son diferentes."
+  },
+  {
+   "par": "P05",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la apertura y cierre de caja, siguiendo procedimientos financieros y normativas legales, mientras que la tarea B se refiere a actividades de ventas y negociación, siguiendo técnicas de ventas y políticas comerciales."
+  },
+  {
+   "par": "P06",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la recepción y registro de existencias en un almacén, siguiendo procedimientos internos y normativas. La Tarea B se centra en atender los requerimientos de clientes de acuerdo a políticas y procedimientos de la empresa, lo cual implica una interacción directa con clientes y resolución de necesidades, lo cual es un rol diferente del manejo de existencias."
+  },
+  {
+   "par": "P07",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la supervisión de operaciones de almacén, como la toma de inventarios y el control de existencias. La tarea B se centra en la supervisión del área de caja, incluyendo la verificación de operatividad, mantenimiento de equipos y manejo de monedas y billetes. Aunque ambas implican supervisión y cumplimiento de procedimientos, las actividades específicas y los contextos operativos son diferentes."
+  },
+  {
+   "par": "P08",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la prevención de riesgos físicos y emocionales en el trabajo, siguiendo normativas de SST, mientras que la tarea B se centra en atender las necesidades de los clientes según políticas y procedimientos de la empresa. Aunque ambas son responsabilidades de trabajadores en diferentes contextos, las acciones y el enfoque son diferentes."
+  },
+  {
+   "par": "P09",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la recepción y registro de existencias en un almacén, mientras que la tarea B se enfoca en la gestión y supervisión de operaciones del área de caja. Aunque ambas implican cumplir con procedimientos de la empresa, las acciones y contextos son diferentes: una relacionada con la recepción de mercancías y la otra con la operación y supervisión de caja."
+  },
+  {
+   "par": "P10",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se refiere a procesos de almacenamiento y gestión de existencias en un entorno laboral, mientras que la tarea B se enfoca en la prevención de accidentes domésticos y la seguridad de personas en un hogar. No comparten la misma acción ni el mismo contexto laboral."
+  },
+  {
+   "par": "P11",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la organización y verificación de actividades de limpieza según políticas y normativas, mientras que la tarea B se refiere al cierre de ventas, técnicas de ventas y políticas comerciales. Involucran funciones diferentes: una relacionada con servicios de limpieza y la otra con ventas y comercio."
+  },
+  {
+   "par": "P12",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la ordenación y verificación del estado de los enseres e infraestructura, mientras que la tarea B se centra en la organización de operaciones de almacén, incluyendo distribución de tareas, validación de documentos y control de mercaderías. Aunque ambas implican organización y cumplimiento de normas, el alcance y las actividades específicas son diferentes."
+  },
+  {
+   "par": "P13",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la organización y verificación del estado de los enseres e infraestructura según políticas y normativas del establecimiento. La Tarea B, en cambio, se refiere a la actividad específica de lavado de prendas, siguiendo instrucciones de la empleadora y condiciones de SST. Aunque ambas implican la gestión de recursos y cumplimiento de normas, las acciones y el contexto laboral son diferentes."
+  },
+  {
+   "par": "P14",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la fidelización del cliente mediante seguimiento y aplicaciones de herramientas, mientras que la tarea B se enfoca en la apertura y preparación del punto de caja, incluyendo verificación de fondos, equipos y materiales. Son actividades diferentes dentro del mismo sector, pero con objetivos y acciones distintas."
+  },
+  {
+   "par": "P15",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la organización y gestión de actividades de limpieza en un establecimiento, incluyendo la verificación de equipos, productos y la coordinación de actividades. La Tarea B se refiere a la ejecución directa de la limpieza en un hogar, siguiendo indicaciones específicas de la empleadora y considerando aspectos de seguridad y salud laboral. Aunque ambas implican limpieza, una se centra en la gestión y la otra en la ejecución práctica."
+  },
+  {
+   "par": "P17",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la preventa y el desarrollo de clientes, mientras que la tarea B se enfoca en la organización y ejecución de actividades de limpieza. Aunque ambas implican seguir políticas y procedimientos de la empresa, el tipo de actividad es diferente: una es comercial y la otra es de mantenimiento operativo."
+  },
+  {
+   "par": "P18",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la fidelización del cliente mediante seguimiento y herramientas específicas, mientras que la Tarea B se enfoca en cumplir con estándares de atención al cliente, comunicación y explicación de productos, con un enfoque más general y menos específico en la fidelización."
+  },
+  {
+   "par": "P19",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el despacho de existencias según procedimientos, requerimientos de clientes y normativa, mientras que la tarea B se enfoca en la habilitación de habitaciones según políticas y procedimientos de la empresa, incluyendo higiene y manejo de elementos contaminantes. Aunque ambas implican seguir protocolos y procedimientos, las acciones y el contexto son diferentes: una relacionada con logística y despacho de mercancías, la otra con servicios de hospedaje y mantenimiento de habitaciones."
+  },
+  {
+   "par": "P20",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A corresponde a operaciones de caja en entidades financieras, mientras que la tarea B se enfoca en preparar insumos e implementos de limpieza con atención a condiciones de SST. Son actividades diferentes, pertenecen a oficios distintos (cajero vs. operario de limpieza). Aunque ambas implican seguir procedimientos establecidos, el ámbito de acción y las responsabilidades son diferentes."
+  },
+  {
+   "par": "P21",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la preparación de insumos e implementos de limpieza con enfoque en seguridad y salud laboral, mientras que la tarea B se centra en el acondicionamiento de habitaciones según los requerimientos del huésped y las políticas de la empresa. Aunque ambas implican organización y selección de elementos, sus objetivos y contextos son diferentes."
+  },
+  {
+   "par": "P22",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en mantener el orden del espacio físico según indicaciones y SST, mientras que la tarea B implica organizar actividades de limpieza, priorizar tareas, seleccionar y preparar materiales de limpieza según políticas y procedimientos de la empresa. Aunque ambas involucran aspectos de organización y limpieza, la tarea B tiene un alcance más amplio y específica relacionada con la gestión de actividades de limpieza, mientras que la tarea A se centra en el mantenimiento del orden físico."
+  },
+  {
+   "par": "P23",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B son distintas. La tarea A se enfoca en el control del proceso de limpieza de áreas asignadas, incluyendo el control de personal, horarios, permisos, y verificación de herramientas y condiciones de las áreas. Por otro lado, la tarea B se centra en la organización de actividades para el acondicionamiento de una habitación específica, considerando los requerimientos del huésped y los procedimientos de la empresa. Aunque ambas involucran tareas de limpieza y organización, las responsabilidades y enfoques son diferentes: una es de supervisión y control, mientras que la otra es de ejecución y atención al cliente."
+  },
+  {
+   "par": "P24",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la organización y control de operaciones en un almacén, mientras que la tarea B se refiere a la dirección y control de operaciones en una bóveda o caja fuerte de una entidad financiera. Aunque ambas implican gestión y cumplimiento de procedimientos, las actividades específicas y los contextos son diferentes: almacén vs. bóveda, gestión de mercaderías vs. gestión de efectivo y documentos financieros."
+  },
+  {
+   "par": "P25",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en atender a los clientes y proporcionar soporte en el uso, prueba, instalación o resolución de problemas relacionados con productos o servicios. La tarea B se enfoca en la gestión y conservación de prendas, incluyendo clasificación, doblado y almacenamiento, siguiendo indicaciones de la empleadora y normas de seguridad. No comparten acciones similares ni el mismo ámbito laboral."
+  },
+  {
+   "par": "P26",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la gestión y operaciones de bóveda o caja fuerte, incluyendo apertura, retiro de efectivo, validación de saldos y control de límites. La tarea B se centra en la verificación de apertura y cierre de caja, instrucción del personal, asignación de ubicaciones y cotejo de operatividad. Aunque ambas involucran cajas, sus funciones son diferentes: una maneja el contenido y seguridad de la bóveda, mientras que la otra supervisa el proceso de apertura y operación de caja."
+  },
+  {
+   "par": "P27",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en el almacenamiento y gestión de existencias, mientras que la Tarea B se relaciona con el cierre de ventas y procesos comerciales. Aunque ambas son funciones operativas, las actividades y objetivos son diferentes."
+  },
+  {
+   "par": "P28",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la supervisión de operaciones de almacén, como la coordinación de inventarios y el control de existencias. La Tarea B, en cambio, se centra en atender los requerimientos del cliente, incluyendo la priorización, identificación de responsabilidades, toma de decisiones y resolución de problemas relacionados con el servicio al cliente. Aunque ambas implican la atención a clientes o procesos operativos, las acciones y el ámbito de responsabilidad son diferentes."
+  },
+  {
+   "par": "P29",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el control del proceso de limpieza y gestión del personal en áreas asignadas, mientras que la tarea B se enfoca en la verificación de la conformidad del área de trabajo y el funcionamiento del equipo mecánico/eléctrico en un almacén. Aunque ambas implican verificación, el contexto y el tipo de actividades son diferentes."
+  },
+  {
+   "par": "P30",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la segmentación y actualización de la base de datos de clientes, mientras que la tarea B se enfoca en atender los requerimientos del cliente según políticas y procedimientos de la empresa. Aunque ambas están relacionadas con el cliente, tienen objetivos y acciones diferentes."
+  },
+  {
+   "par": "P31",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el cierre y cuadre de caja, siguiendo procedimientos financieros y normativas legales, mientras que la tarea B se enfoca en la negociación y ventas, siguiendo técnicas de ventas y políticas comerciales. Las actividades son diferentes: una implica gestión de efectivo y cumplimiento normativo, mientras que la otra implica comunicación con clientes y propuestas comerciales."
+  },
+  {
+   "par": "P32",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la planificación de actividades de limpieza, incluyendo la verificación de herramientas, inventarios y asignación de tareas, siguiendo políticas y normativas. La tarea B se enfoca en la ejecución del arqueo y cuadre de caja, siguiendo procedimientos de la empresa y normativa vigente. Estas son funciones diferentes dentro de un mismo oficio, pero con objetivos y acciones distintos."
+  },
+  {
+   "par": "P33",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la recepción y registro de existencias en un almacén, mientras que la tarea B se enfoca en el asesoramiento y atención al cliente sobre el uso y soporte de productos o servicios adquiridos. Aunque ambas implican cumplir con procedimientos de la empresa, las acciones y el contexto son diferentes."
+  },
+  {
+   "par": "P34",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la supervisión de operaciones de almacén, incluyendo inventarios y control de existencias, mientras que la tarea B se refiere a la habilitación de una habitación, enfocándose en la limpieza, higiene y reemplazo de elementos. Son funciones diferentes dentro de distintos ámbitos laborales (almacén vs. hotel o alojamiento)."
+  },
+  {
+   "par": "P36",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en asistir al cliente en el uso, prueba, instalación, envío y resolución de reclamos sobre productos o servicios adquiridos, mientras que la tarea B se centra en la cobranza y entrega de productos/servicios, incluyendo atención inicial, registro de datos, manejo de pagos y comisiones."
+  },
+  {
+   "par": "P37",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la organización de insumos para la elaboración de un menú, involucrando higiene, seguridad y salud en el trabajo. La tarea B se centra en el acondicionamiento de una habitación para un huésped, siguiendo políticas y procedimientos de la empresa. Aunque ambas implican organización y cumplimiento de instrucciones, el ámbito laboral y las actividades específicas son diferentes."
+  },
+  {
+   "par": "P38",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el ordenamiento y verificación del estado de los enseres e infraestructura de un establecimiento, siguiendo políticas y normativa vigente. La tarea B se enfoca en la gestión de recursos dentro de una entidad financiera, siguiendo procedimientos establecidos y normativa legal. Aunque ambas implican cumplir con normas, el ámbito de acción y las responsabilidades son diferentes: una se centra en el mantenimiento físico del lugar, mientras que la otra en la gestión operativa de recursos financieros."
+  },
+  {
+   "par": "P39",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la verificación de apertura y cierre de caja, instrucciones al personal, asignación de puestos y cotejo de operatividad. La tarea B se enfoca en el acondicionamiento de habitaciones según requerimientos del huésped, priorización de trabajo, selección de elementos y coordinación de requerimientos. Son funciones diferentes dentro de distintos oficios (cajero vs. asistente de habitaciones)."
+  },
+  {
+   "par": "P40",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la evaluación del impacto de las actividades de post venta y la gestión de la satisfacción del cliente, mientras que la tarea B se enfoca en la aseguración y operación del área de caja, incluyendo la gestión del personal y los equipos. Estas son funciones diferentes dentro de un mismo oficio, pero con objetivos y acciones distintas."
+  },
+  {
+   "par": "P41",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la gestión de recursos y operaciones financieras, incluyendo supervisión de caja, actualización de tarifarios y comunicación de políticas. La Tarea B se centra en la aplicación de técnicas de limpieza, manejo de materiales y cumplimiento de procedimientos en áreas asignadas. Son actividades diferentes dentro de oficios distintos (gestión financiera vs. limpieza)."
+  },
+  {
+   "par": "P42",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas porque la tarea A se enfoca en el control y supervisión del proceso de limpieza, mientras que la tarea B se enfoca en la aplicación directa de las técnicas de limpieza. La tarea A implica supervisar al personal, verificar cumplimiento de políticas y normativas, y garantizar las condiciones de trabajo. La tarea B se centra en la ejecución de la limpieza, uso de materiales y cumplimiento de instrucciones específicas."
+  },
+  {
+   "par": "P43",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B son distintas. La tarea A se centra en la organización de operaciones de almacén, incluyendo la distribución de tareas, validación de documentos, control de ubicaciones y verificación de equipos. La tarea B se refiere a la administración de recursos en una entidad financiera, enfocándose en la supervisión de operaciones de caja, actualización de tarifarios, información a personal y distribución de material publicitario. Estas tareas involucran funciones diferentes y se aplican en contextos distintos (almacén vs. entidad financiera), por lo que no son la misma tarea."
+  },
+  {
+   "par": "P44",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el almacenamiento general de existencias siguiendo procedimientos empresariales, normativas y condiciones de almacenamiento (como temperatura, volumen, etc.). La tarea B se refiere específicamente al guardado de prendas en un contexto de conservación, con énfasis en SST, clasificación según material, tipo de prenda, frecuencia de uso y estación del año. Aunque ambas implican clasificar y almacenar, la tarea B es más específica y limitada al ámbito de la ropa y normas de seguridad laboral."
+  },
+  {
+   "par": "P45",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la cobranza y gestión de clientes en un establecimiento comercial, mientras que la tarea B se refiere a la preparación de insumos y equipos para la limpieza, con enfoque en la seguridad y salud en el trabajo."
+  },
+  {
+   "par": "P46",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la supervisión de operaciones de almacén, incluyendo inventarios y gestión de existencias. La tarea B se enfoca en la pre venta, incluyendo prospección de clientes y preparación de presentaciones comerciales. Son funciones diferentes dentro de un mismo oficio o sector laboral, pero no representan la misma acción sobre lo mismo."
+  },
+  {
+   "par": "P47",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la limpieza directa de áreas asignadas según políticas y normativas, mientras que la tarea B implica la preparación y gestión de insumos e implementos de limpieza. La tarea A es la ejecución de la limpieza, mientras que la tarea B es la planificación y preparación para realizar la limpieza."
+  },
+  {
+   "par": "P48",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la organización y supervisión de actividades de limpieza, cumpliendo con políticas y normativas del establecimiento. La Tarea B se enfoca en el traslado y manejo de existencias, siguiendo procedimientos de la empresa y normativa correspondiente. Aunque ambas involucran verificar y cumplir con normativas, el ámbito de acción y las funciones son diferentes: una se relaciona con la limpieza y mantenimiento, mientras que la otra con la logística y manejo de mercancías."
+  },
+  {
+   "par": "P49",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la recepción y registro de existencias en un almacén, siguiendo procedimientos y normativas. La tarea B se enfoca en mantener el orden físico del espacio de trabajo, siguiendo indicaciones de la empleadora y normas de SST. Son funciones diferentes, aunque ambas implican organización y cumplimiento de normas."
+  },
+  {
+   "par": "P50",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el cierre de ventas, incluyendo la suscripción de contratos, coordinación de entrega y cobranza, y aseguramiento del envío del producto. La tarea B se centra en la verificación de apertura y cierre de caja, incluyendo la gestión de llaves, capacitación del personal, asignación de ubicaciones y cotejo de operatividad. Son funciones diferentes dentro del mismo oficio, pero con pasos distintos del trabajo."
+  },
+  {
+   "par": "P51",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea. La tarea A se enfoca en la preparación y acondicionamiento de la ventanilla de caja antes de su apertura, incluyendo la revisión de equipos, verificación de materiales, recuento de efectivo y arqueo inicial. Por otro lado, la tarea B se centra en la ejecución del arqueo y cuadre de caja durante o al finalizar la jornada laboral, incluyendo la entrega de efectivo al jefe y la realización del cuadre según los procedimientos de la empresa. Aunque ambas tareas involucran el manejo de caja, se diferencian en el momento del proceso (preparación vs. cierre) y en las acciones específicas realizadas."
+  },
+  {
+   "par": "P52",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la gestión y control de cajas, análisis de datos, y supervisión del desempeño del personal, mientras que la Tarea B se centra en la prevención de accidentes domésticos y la seguridad de personas en entornos residenciales."
+  },
+  {
+   "par": "P53",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B son distintas. La tarea A se enfoca en la verificación de condiciones técnicas y de seguridad en el área de almacén, mientras que la tarea B se enfoca en la supervisión de operaciones de caja y cumplimiento de normativas financieras. Aunque ambas implican verificación y cumplimiento de normas, el ámbito de aplicación y las acciones específicas son diferentes."
+  },
+  {
+   "par": "P54",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la preparación de insumos e implementos de limpieza según las indicaciones de la persona empleadora y condiciones de SST. La tarea B se enfoca en la organización de actividades de limpieza según las indicaciones del jefe inmediato y políticas de la empresa. Aunque ambas involucran preparación y selección de materiales de limpieza, la tarea A está centrada en la preparación física de los insumos, mientras que la tarea B se enfoca en la planificación y organización del trabajo de limpieza."
+  },
+  {
+   "par": "P55",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el ordenamiento y verificación del estado óptimo de los enseres e infraestructura, mientras que la tarea B se enfoca en la organización de actividades de limpieza, incluyendo la priorización del trabajo, selección de materiales y preparación de productos de limpieza. Aunque ambas implican manejar áreas asignadas, sus objetivos y acciones específicas son diferentes."
+  },
+  {
+   "par": "P56",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el control del proceso de limpieza y gestión del personal en áreas asignadas, mientras que la tarea B se centra en la supervisión de actividades específicas del área de caja, incluyendo verificaciones operativas y manejo de materiales en ese contexto. Aunque ambas involucran supervisión y cumplimiento de normas, las actividades específicas y los contextos operativos son diferentes."
+  },
+  {
+   "par": "P57",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la gestión y traslado de mercancías en un almacén, siguiendo protocolos de almacenamiento y movilización. La tarea B se centra en actividades de fidelización de clientes, como seguimiento y aplicación de herramientas de retención. Son funciones diferentes, incluso dentro del mismo sector, ya que una involucra logística interna y la otra atención al cliente externo."
+  },
+  {
+   "par": "P58",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la limpieza de áreas asignadas siguiendo políticas y normativas de un establecimiento, mientras que la tarea B se refiere a la preparación y operación de una ventanilla de caja en un entorno financiero, siguiendo procedimientos específicos de la entidad financiera y normativa legal. Aunque ambas implican seguir normas y procedimientos, las acciones y contextos son diferentes."
+  },
+  {
+   "par": "P59",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas aunque ambas relacionadas con el servicio al cliente. La tarea A se enfoca específicamente en la fidelización del cliente mediante seguimiento y herramientas específicas. La tarea B abarca un rango más amplio de atención a requerimientos del cliente, incluyendo priorización, identificación de responsabilidad, toma de decisiones y resolución de problemas. Aunque ambas son funciones del servicio al cliente, tienen enfoques y alcances diferentes."
+  },
+  {
+   "par": "P60",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la gestión del área de caja, incluyendo la elaboración de indicadores, capacitación, seguimiento de incidencias y evaluación del desempeño. En cambio, la tarea B se refiere a la organización de actividades de limpieza, priorización de tareas, selección y preparación de materiales de limpieza. Son funciones diferentes dentro de un mismo entorno laboral, pero no se trata de la misma acción sobre lo mismo."
+  },
+  {
+   "par": "E01",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas A y B son distintas. La tarea A se enfoca en la supervisión de operaciones de caja relacionadas con transacciones financieras, verificación de documentos, autorización de extornos y manejo de montos permitidos. Por otro lado, la tarea B aborda la supervisión del área de caja en términos de preparación del punto de venta, verificación de operatividad, mantenimiento de equipos y gestión de monedas y billetes. Aunque ambas implican supervisión en caja, sus enfoques y acciones específicas son diferentes."
+  },
+  {
+   "par": "E02",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. Aunque ambas involucran organizar actividades de limpieza, la tarea A se centra en la organización de actividades de limpieza según políticas del establecimiento y normativa vigente, mientras que la tarea B se centra en la organización de actividades de limpieza teniendo en cuenta indicaciones del jefe inmediato, políticas y procedimientos de la empresa. Además, los ejemplos de la tarea B incluyen la priorización del trabajo, selección y preparación de materiales y productos de limpieza, lo cual no está presente en los ejemplos de la tarea A."
+  },
+  {
+   "par": "E03",
+   "marca": "si",
+   "qvac": "si",
+   "razon": "Ambas tareas se enfocan en la preparación y apertura del punto de caja, asegurando que esté listo para operar según los procedimientos y normativas establecidas. Aunque las descripciones específicas varían ligeramente, las acciones principales (verificar equipos, materiales, efectivo, y seguir protocolos) son idénticas en esencia. La tarea A se enfoca en la ventanilla y el cuadre inicial, mientras que la B menciona el punto de caja en general, pero el núcleo de la actividad es el mismo."
+  },
+  {
+   "par": "E05",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca específicamente en el asesoramiento, prueba, instalación, envío y atención a reclamos de productos o servicios adquiridos, con un enfoque en el uso seguro y resolución de fallas. La Tarea B se centra en atender requerimientos del cliente de manera general, priorizando a los clientes, identificando responsabilidades, tomando decisiones y resolviendo requerimientos rutinarios, lo cual abarca un rango más amplio de actividades y no está limitado al uso o fallas de productos o servicios."
+  },
+  {
+   "par": "E06",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas no son idénticas. La Tarea A se enfoca en la apertura y cierre de caja, siguiendo procedimientos de la entidad financiera y normativa legal, incluyendo aspectos como inspección de ubicación, apertura del sistema de caja, manejo de la bóveda y retiro de efectivo. La Tarea B se centra en la ejecución de la apertura del punto de caja, verificando disponibilidad de fondos, operatividad de equipos y condiciones del lugar de trabajo, siguiendo procedimientos de la empresa y normativa vigente. Aunque ambas implican apertura de caja, difieren en los pasos y responsabilidades específicas, con la Tarea A enfocada en la gestión del efectivo y sistemas de caja, mientras que la Tarea B aborda más la preparación y verificación del entorno de trabajo."
+  },
+  {
+   "par": "E07",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la ejecución de operaciones específicas de caja, como el cobro de préstamos y la validación de identidad del usuario, siguiendo los procedimientos de la entidad financiera. La Tarea B, en cambio, se enfoca en la supervisión, coordinación y aseguramiento de las operaciones del área de caja, incluyendo el seguimiento del personal y la gestión de equipos, según los procedimientos de la empresa."
+  },
+  {
+   "par": "E08",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Aunque ambas tareas involucran el arqueo y cuadre de caja, hay diferencias clave. La tarea A se enfoca en el cierre de caja según procedimientos de la entidad financiera y normativa legal, mientras que la tarea B se enfoca en el arqueo y cuadre según procedimientos de la empresa y normativa vigente. Además, la tarea B incluye acciones como la entrega de efectivo al jefe inmediato y el retiro de efectivo, que no están presentes en la tarea A."
+  },
+  {
+   "par": "E09",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en el control y supervisión del proceso de limpieza, incluyendo horarios, asistencia del personal y retroalimentación. La Tarea B se enfoca en la organización y planificación de las actividades de limpieza, como identificar áreas, priorizar trabajo y seleccionar materiales. Son funciones diferentes dentro del mismo oficio, pero no la misma tarea."
+  },
+  {
+   "par": "E10",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "La Tarea A se enfoca en la realización de operaciones de caja según las solicitudes del usuario, incluyendo verificaciones de identidad, validación de datos y registro de operaciones. La Tarea B, en cambio, se enfoca en el arqueo y cuadre de caja, que implica manejar el efectivo, registrar el retiro, entregar el fondo y realizar el cuadre al finalizar la jornada. Son tareas distintas, aunque ambas estén relacionadas con el manejo de caja, ya que una se centra en la operación diaria y la otra en el control y conteo del efectivo al finalizar el turno."
+  },
+  {
+   "par": "E11",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en habilitar la apertura y cierre de caja, incluyendo procedimientos técnicos como el uso de herramientas informáticas y manejo de caja fuerte. La Tarea B se enfoca en verificar y supervisar el cumplimiento de los procedimientos por parte del personal de caja, incluyendo capacitación y asignación de puestos. Aunque ambas involucran apertura de caja, sus enfoques y acciones son diferentes."
+  },
+  {
+   "par": "E12",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea. La tarea A se centra en la supervisión de operaciones de caja, incluyendo el cuadre de documentos, autorización de extornos y manejo de montos excedentes. Por otro lado, la tarea B se enfoca en la apertura y cierre de caja, instrucción del personal y distribución de puestos. Aunque ambas están relacionadas con caja, abordan funciones distintas dentro del mismo ámbito laboral."
+  },
+  {
+   "par": "E13",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "La tarea A se enfoca en la ejecución directa de la limpieza de áreas asignadas, siguiendo políticas y normativas. La tarea B implica la organización y planificación de las actividades de limpieza, incluyendo la priorización, selección de materiales y preparación de productos, según indicaciones del jefe. Aunque ambas están relacionadas con la limpieza, sus enfoques son distintos: una es la ejecución, la otra la planificación y organización."
+  },
+  {
+   "par": "E14",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la limpieza general de áreas asignadas con enfoque en cumplir políticas y normativa vigente. La tarea B implica aplicar técnicas de limpieza según indicaciones del jefe, cumplir con plazos y usar materiales específicos. Aunque ambas son sobre limpieza, la B incluye aspectos adicionales como técnicas, plazos y uso de materiales, lo que las hace distintas."
+  },
+  {
+   "par": "E15",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la organización y supervisión de las actividades de limpieza, mientras que la tarea B se enfoca en la aplicación directa de las técnicas de limpieza en las áreas asignadas. Aunque ambas están relacionadas con el trabajo de limpieza, tienen roles diferentes: una es de coordinación y gestión, y la otra es de ejecución operativa."
+  },
+  {
+   "par": "E16",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en las operaciones de caja relacionadas con transacciones financieras y gestión de clientes, mientras que la tarea B se enfoca en la apertura y preparación del punto de caja, incluyendo verificaciones de fondos, equipos y materiales. Son pasos diferentes dentro del mismo oficio, pero no la misma acción sobre lo mismo."
+  },
+  {
+   "par": "E17",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el cierre y cuadre de caja, incluyendo el manejo del efectivo, remesas a bóveda y verificación de montos. La tarea B se enfoca en la apertura y cierre de caja, incluyendo la gestión de llaves, asignación de puestos, capacitación del personal y verificación de materiales para la operación. Aunque ambas son funciones relacionadas con caja, sus enfoques y acciones específicas son diferentes."
+  },
+  {
+   "par": "E18",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se centra en la supervisión de operaciones de caja, incluyendo la autorización de extornos y operaciones que exceden montos permitidos, mientras que la Tarea B se enfoca en la ejecución del arqueo y cuadre de caja, como el retiro de efectivo, entrega de fondos y realización del cuadre-arqueo. Aunque ambas están relacionadas con caja, implican roles diferentes: supervisión versus ejecución directa."
+  },
+  {
+   "par": "E19",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se centra en la preparación y apertura de caja, incluyendo revisión de equipos, verificación de materiales, recuento de efectivo y arqueo inicial. La Tarea B aborda la verificación de apertura y cierre de caja, incluyendo gestión de llaves, capacitación del personal, asignación de puestos y cotejo de operatividad. Aunque ambas están relacionadas con caja, implican pasos diferentes y responsabilidades distintas."
+  },
+  {
+   "par": "E20",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el cuadre y cierre de caja, específicamente en el manejo del efectivo y su registro contable. La tarea B aborda la gestión del área de caja, incluyendo supervisión, coordinación y seguimiento de actividades del personal. Aunque ambas están relacionadas con caja, sus acciones y enfoques son diferentes."
+  },
+  {
+   "par": "E21",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la operación de caja (ejecutar transacciones financieras con usuarios), mientras que la Tarea B se enfoca en la gestión de apertura y cierre de caja, incluyendo asignación de puestos y capacitación. Aunque ambas están relacionadas con caja, son pasos diferentes en el proceso de trabajo."
+  },
+  {
+   "par": "E22",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "La tarea A se enfoca en realizar operaciones específicas de caja según el usuario, mientras que la tarea B se enfoca en supervisar y gestionar las actividades del área de caja. Aunque ambas tareas están relacionadas con caja, una implica la ejecución directa de operaciones y la otra implica la supervisión y gestión del área."
+  },
+  {
+   "par": "E23",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la gestión y operaciones específicas de bóveda o caja fuerte, incluyendo apertura, retiro de efectivo, validación de saldos y control de límites. La Tarea B se enfoca en la gestión del área de caja, como verificar horarios, coordinar mantenimiento de equipos, distribuir personal y supervisar cumplimiento de tareas. Aunque ambas son funciones relacionadas con cajas, tienen roles y responsabilidades diferentes."
+  },
+  {
+   "par": "E24",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el cierre y cuadre de caja, mientras que la tarea B se enfoca en la apertura del punto de caja. Aunque ambas involucran caja, se refieren a pasos diferentes del proceso: una es la finalización y verificación del monto, y la otra es la preparación inicial para el inicio de operaciones."
+  },
+  {
+   "par": "E25",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son diferentes. La Tarea A se enfoca en la supervisión de operaciones de caja, incluyendo verificación de documentos, autorización de extornos y manejo de montos. La Tarea B se enfoca en la apertura y preparación del punto de caja, verificando fondos, equipos y materiales necesarios. Aunque ambas están relacionadas con caja, son pasos distintos en el proceso: una es supervisión y control, la otra es apertura y preparación."
+  },
+  {
+   "par": "E27",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea. La tarea A se enfoca en la apertura y cierre de caja, siguiendo procedimientos financieros y normativa legal, mientras que la tarea B se centra en asegurar y coordinar operaciones del área de caja, incluyendo supervisión y cumplimiento de procedimientos internos de la empresa."
+  },
+  {
+   "par": "E28",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en el despacho de existencias, incluyendo actividades como picking, packing y registro de salidas. La Tarea B se enfoca en atender requerimientos del cliente, incluyendo priorización, identificación de responsabilidad, toma de decisiones y resolución de requerimientos rutinarios. Aunque ambas involucran atención al cliente, el enfoque principal y las acciones específicas son diferentes."
+  },
+  {
+   "par": "E29",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea. La tarea A se enfoca en la preparación y apertura de caja (acondicionar la ventanilla, revisar equipos, verificar materiales, cuadre inicial), mientras que la tarea B se centra en la supervisión y aseguramiento de las operaciones de caja (verificar horarios, coordinar mantenimiento, distribuir personal, seguimiento de tareas). Son funciones distintas dentro del mismo oficio, pero con pasos diferentes y niveles de responsabilidad diferentes."
+  },
+  {
+   "par": "E30",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la operación directa de caja, como realizar transacciones financieras, validar identidad, registrar operaciones y comunicar detalles de préstamos, siguiendo los procedimientos de la entidad financiera. La Tarea B, en cambio, se enfoca en la gestión y supervisión del área de caja, incluyendo la elaboración de indicadores, capacitación, verificación de planes comerciales, seguimiento de incidencias y evaluación del desempeño del personal, siguiendo los procedimientos de la empresa. Son tareas diferentes, una operativa y otra de gestión."
+  },
+  {
+   "par": "E31",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la dirección y operación de bóveda, incluyendo apertura, retiro de efectivo, validación de saldos y control de límites, mientras que la tarea B se enfoca en el arqueo y cuadre de caja, incluyendo la entrega de efectivo, registro en sistema y cierre de jornada. Aunque ambas implican manejo de efectivo y cumplimiento de procedimientos, las responsabilidades y acciones son diferentes."
+  },
+  {
+   "par": "E32",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se centra en la apertura y cierre de caja, siguiendo procedimientos de la entidad financiera y normativa legal. La Tarea B se enfoca en el arqueo y cuadre de caja, siguiendo procedimientos de la empresa y normativa vigente. Aunque ambas involucran caja, sus acciones y enfoques son diferentes: una es sobre el manejo de apertura/cierre, mientras que la otra es sobre el conteo y verificación de los fondos."
+  },
+  {
+   "par": "E33",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la gestión y operaciones de bóveda o caja fuerte, incluyendo apertura, retiro de efectivo, validación de saldos y control de límites. La Tarea B se enfoca en la supervisión del área de caja, incluyendo verificación de productos de promoción, check list de operatividad, identificación de desperfectos y facilitar cambio de monedas. Aunque ambas involucran cajas, las funciones son diferentes: una es sobre gestión de bóveda y otra sobre supervisión del área de caja."
+  },
+  {
+   "par": "E34",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la supervisión y gestión operativa de las operaciones de caja, incluyendo verificaciones, autorizaciones y manejo de efectivo. La Tarea B, en cambio, se centra en la elaboración de indicadores de gestión, capacitación, seguimiento de metas comerciales y evaluación del desempeño del personal, lo cual corresponde a un rol más de análisis y gestión de procesos, no directamente a la operación diaria de caja."
+  },
+  {
+   "par": "E35",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el despacho de existencias, incluyendo picking, packing y registro de salidas. La tarea B se enfoca en la cobranza y entrega de productos/servicios, incluyendo atención al cliente, registro de datos y manejo de pagos. Son procesos diferentes dentro del mismo oficio, pero con acciones distintas."
+  },
+  {
+   "par": "E36",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la dirección y operación de bóvedas o cajas fuertes, incluyendo apertura, retiro de efectivo, validación de saldos y control de límites. La tarea B se refiere a la apertura y preparación del punto de caja, incluyendo verificación de fondos, equipos y materiales, así como recepción de instrucciones. Aunque ambas implican operaciones en cajas, las funciones son diferentes: una es la gestión y control de bóvedas, mientras que la otra es la operación y preparación del punto de caja."
+  },
+  {
+   "par": "E37",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la realización del cuadre y cierre de caja, incluyendo el manejo del efectivo, el remeso a bóveda y la verificación de montos. La tarea B se enfoca en la supervisión de actividades del área de caja, como verificar la disponibilidad de productos, realizar check list, identificar y reportar desperfectos en equipos y facilitar el cambio de monedas y billetes. Aunque ambas están relacionadas con caja, sus objetivos y acciones son diferentes."
+  },
+  {
+   "par": "E38",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la organización y operación del almacén, incluyendo la distribución de tareas, validación de documentos de existencias y control de mercaderías. La tarea B se enfoca en el área de caja, involucrando la verificación de horarios, coordinación de equipos y seguimiento del cumplimiento de tareas en caja. Son funciones diferentes dentro del mismo ámbito laboral, pero con áreas de operación distintas."
+  },
+  {
+   "par": "E39",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la planificación de actividades de limpieza según políticas y normativa vigente, mientras que la tarea B se enfoca en la organización de actividades de limpieza según las indicaciones del jefe y políticas de la empresa. Aunque ambas involucran limpieza, la A implica planificación y la B implica organización y priorización, con enfoques diferentes."
+  },
+  {
+   "par": "E40",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en el despacho de existencias, incluyendo picking, packing y registro de salidas. La tarea B se refiere al arqueo y cuadre de caja, que implica manejar efectivo, registrar y verificar el monto. Son actividades diferentes dentro de un mismo oficio (almacenaje y caja), pero involucran pasos distintos y responsabilidades diferentes."
+  },
+  {
+   "par": "E42",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B son distintas. La tarea A se enfoca en la organización y gestión del almacén, incluyendo distribución de tareas, validación de documentos, control de ubicación de mercaderías y verificación de equipos de almacenamiento. Por otro lado, la tarea B se centra en el arqueo y cuadre de caja, incluyendo el manejo de efectivo, entrega de fondos y ejecución del cuadre de caja según procedimientos establecidos. Aunque ambas implican cumplir con procedimientos internos y normativa, las acciones y áreas de responsabilidad son diferentes."
+  },
+  {
+   "par": "E43",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas, aunque ambas se relacionan con la apertura y operación de caja. La tarea A se enfoca en la preparación y apertura de caja, específicamente en el acondicionamiento de la ventanilla, el manejo del efectivo y el cuadre inicial. Por otro lado, la tarea B se centra en la supervisión general del área de caja, incluyendo la verificación de productos de promoción, la operatividad de la caja, y la gestión de materiales y monedas. Mientras que la tarea A es más operativa y ejecutiva, la tarea B tiene un enfoque de supervisión y gestión."
+  },
+  {
+   "par": "E44",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la apertura y cierre de caja, incluyendo procedimientos de seguridad y manejo de efectivo. La Tarea B se enfoca en la supervisión del área de caja, verificación de operatividad, y mantenimiento de materiales necesarios para la operación. Aunque ambas están relacionadas con el área de caja, sus enfoques y acciones son diferentes."
+  },
+  {
+   "par": "E45",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La tarea A se enfoca en la gestión y administración de recursos, políticas y procedimientos dentro de una entidad financiera, incluyendo la supervisión de operaciones de caja, actualización de tarifarios y distribución de material publicitario. Por otro lado, la tarea B se centra en la ejecución del arqueo y cuadre de caja, específicamente en el manejo de efectivo, la entrega de fondos y la realización del cuadre de caja según los procedimientos de la empresa. Aunque ambas tareas están relacionadas con caja, tienen roles y responsabilidades diferentes: una es más de supervisión y administración, mientras que la otra es de ejecución operativa."
+  },
+  {
+   "par": "E46",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en la ejecución operativa del cierre y cuadre de caja, mientras que la Tarea B se centra en la evaluación, seguimiento y capacitación del personal en el área de caja. Aunque ambas están relacionadas con el área de caja, sus objetivos y acciones son diferentes."
+  },
+  {
+   "par": "E47",
+   "marca": "si",
+   "qvac": "si",
+   "razon": "Ambas tareas se refieren a mantener el orden y verificar el estado de los espacios y equipos, siguiendo políticas internas y normativas vigentes. Aunque los ejemplos mencionan diferentes contextos (establecimiento vs. hogar), la acción principal es similar: mantener el orden y verificar el estado de los espacios y equipos."
+  },
+  {
+   "par": "E48",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea. La tarea A se enfoca en la preparación de los insumos e implementos de limpieza según las indicaciones de la persona empleadora y en la SST. Por otro lado, la tarea B se enfoca en la aplicación de técnicas de limpieza en las áreas asignadas, siguiendo las políticas y procedimientos de la empresa, incluyendo la colocación de señalética y reporte de requerimientos."
+  },
+  {
+   "par": "E49",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se enfoca en el almacenamiento y organización de existencias, mientras que la Tarea B se centra en la atención y resolución de requerimientos de clientes. Aunque ambas pueden ser parte del mismo oficio, son pasos o funciones diferentes dentro del trabajo."
+  },
+  {
+   "par": "E50",
+   "marca": "no",
+   "qvac": "no",
+   "razon": "Las tareas no son idénticas. La Tarea A se enfoca en el ordenamiento y verificación del estado óptimo de los enseres e infraestructura según políticas del establecimiento y normativa vigente, mientras que la Tarea B se centra específicamente en la verificación de la conformidad del área de trabajo y el funcionamiento del equipo mecánico/eléctrico para operaciones de almacén, siguiendo procedimientos de la empresa y normativa correspondiente. Aunque ambas implican verificación, el alcance y el contexto son diferentes."
+  },
+  {
+   "par": "X01",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas son distintas. La Tarea A se refiere a la limpieza en un establecimiento, siguiendo políticas del lugar y normativa vigente, mientras que la Tarea B se enfoca en la limpieza del hogar, siguiendo indicaciones de la empleadora y considerando condiciones de SST. Aunque ambas involucran limpieza, el contexto (establecimiento vs. hogar), el destinatario de las indicaciones (políticas del establecimiento vs. empleadora) y las normativas aplicables (normativa vigente vs. SST) son diferentes."
+  },
+  {
+   "par": "X02",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea, aunque ambas involucren limpieza. La tarea A se enfoca en la limpieza de muebles, espacios y objetos del hogar según las indicaciones de la persona empleadora y en condiciones de SST. Por otro lado, la tarea B implica aplicar técnicas de limpieza en áreas asignadas, siguiendo políticas y procedimientos de la empresa, y reportar problemas. Aunque ambas incluyen limpieza, la A se centra en el hogar y la B en un entorno laboral, con diferentes responsabilidades y procedimientos."
+  },
+  {
+   "par": "X04",
+   "marca": "si",
+   "qvac": "no",
+   "razon": "Las tareas A y B no son la misma tarea. La tarea A se enfoca en la organización y supervisión de actividades de limpieza, incluyendo la verificación de equipos, herramientas y productos, y la coordinación con reuniones. La tarea B se enfoca en la preparación y selección de insumos e implementos de limpieza, según las indicaciones de la persona empleadora y condiciones de SST. Aunque ambas están relacionadas con limpieza, sus enfoques y acciones son distintos: una se centra en la organización y supervisión, y la otra en la preparación y selección de materiales."
+  }
+ ]
+}

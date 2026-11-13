@@ -1,0 +1,26 @@
+{
+  "fecha": "2026-10-28T00:06:17.487Z",
+  "url_configurada": true,
+  "modelo_configurado": "qwen-38-27b",
+  "modelos": [
+    "qwen-38-27b"
+  ],
+  "explicacion": {
+    "segundos": 2.4,
+    "texto": "Mira, ya sabes atender al cliente y cobrar en caja, así que tienes la base lista para el cambio. Solo te falta aprender las operaciones bancarias para poder trabajar como cajero de banco.",
+    "modelo": "qwen-38-27b",
+    "uso": {
+      "completion_tokens": 41,
+      "prompt_tokens": 97,
+      "total_tokens": 138,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  },
+  "json_schema": {
+    "segundos": 1.8,
+    "respetado": true,
+    "texto": "{\n  \"es_cajero\": true,\n  \"motivo\": \"La acción de 'cuadrar la caja' (verificar que el efectivo y los comprobantes coincidan con el sistema) es una tarea fundamental y específica del rol de cajero al finalizar su turno o jornada.\"\n}"
+  }
+}

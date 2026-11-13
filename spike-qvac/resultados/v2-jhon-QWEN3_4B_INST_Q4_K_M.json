@@ -1,0 +1,313 @@
+{
+ "audio": "audio/jhon.wav",
+ "modelo": "QWEN3_4B_INST_Q4_K_M",
+ "relato": "Hola, me llamo John, tengo 34 años. Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga, y cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla. También le instalo el sistema de nuevo y recupero las fotos de los clientes. Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio. Llevo la cuenta de lo que entra y sale en un cuaderno y compro los repuestos en el centro de Lima. Los sábados le enseño a mi sobrino que me ayuda. No tengo ningún certificado, todo lo aprendí mirando videos y practicando.",
+ "actividades": [
+  {
+   "actividad": "arreglando celulares",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares",
+   "candidatos": [
+    {
+     "codigo": "M2982001-3",
+     "score": 0.317,
+     "coincide": true
+    },
+    {
+     "codigo": "J2662002-1",
+     "score": 0.315,
+     "coincide": true
+    },
+    {
+     "codigo": "G2345005-1",
+     "score": 0.303,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cambiando pantallas",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares",
+   "candidatos": [
+    {
+     "codigo": "G2345005-1",
+     "score": 0.285,
+     "coincide": false
+    },
+    {
+     "codigo": "I2555001-1",
+     "score": 0.266,
+     "coincide": false
+    },
+    {
+     "codigo": "R3390002-1",
+     "score": 0.264,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cambiando baterías",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares",
+   "candidatos": [
+    {
+     "codigo": "G2345005-1",
+     "score": 0.304,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cambiando pines de carga",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares",
+   "candidatos": [
+    {
+     "codigo": "F2042004-1",
+     "score": 0.343,
+     "coincide": false
+    },
+    {
+     "codigo": "F2043006-3",
+     "score": 0.343,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "revisando con el multímetro",
+   "cita": "cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla",
+   "candidatos": [
+    {
+     "codigo": "M2974002-2",
+     "score": 0.454,
+     "coincide": false
+    },
+    {
+     "codigo": "G2145004-1",
+     "score": 0.419,
+     "coincide": true
+    },
+    {
+     "codigo": "M2974005-1",
+     "score": 0.405,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "instalando el sistema",
+   "cita": "también le instalo el sistema de nuevo",
+   "candidatos": [
+    {
+     "codigo": "R3390002-1",
+     "score": 0.445,
+     "coincide": false
+    },
+    {
+     "codigo": "F2043009-1",
+     "score": 0.441,
+     "coincide": true
+    }
+   ]
+  },
+  {
+   "actividad": "recuperando las fotos",
+   "cita": "también le instalo el sistema de nuevo y recupero las fotos de los clientes",
+   "candidatos": [
+    {
+     "codigo": "A0101001-2",
+     "score": 0.333,
+     "coincide": false
+    },
+    {
+     "codigo": "C0714005-3",
+     "score": 0.323,
+     "coincide": false
+    },
+    {
+     "codigo": "C0714005-1",
+     "score": 0.317,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "atendiendo a la gente",
+   "cita": "yo mismo atiendo a la gente",
+   "candidatos": [
+    {
+     "codigo": "Q3288004-1",
+     "score": 0.478,
+     "coincide": true
+    },
+    {
+     "codigo": "Q3288004-3",
+     "score": 0.461,
+     "coincide": false
+    },
+    {
+     "codigo": "I2556002-4",
+     "score": 0.429,
+     "coincide": true
+    }
+   ]
+  },
+  {
+   "actividad": "explicando qué tiene el equipo",
+   "cita": "les explico qué tiene su equipo",
+   "candidatos": [
+    {
+     "codigo": "F2043014-2",
+     "score": 0.45,
+     "coincide": true
+    },
+    {
+     "codigo": "F2043014-1",
+     "score": 0.446,
+     "coincide": true
+    },
+    {
+     "codigo": "F2043012-2",
+     "score": 0.416,
+     "coincide": true
+    }
+   ]
+  },
+  {
+   "actividad": "dando el precio",
+   "cita": "les doy el precio",
+   "candidatos": [
+    {
+     "codigo": "A0102002-1",
+     "score": 0.344,
+     "coincide": false
+    },
+    {
+     "codigo": "C0610020-1",
+     "score": 0.342,
+     "coincide": false
+    },
+    {
+     "codigo": "F2041009-1",
+     "score": 0.335,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "llevar la cuenta de lo que entra y sale",
+   "cita": "llevo la cuenta de lo que entra y sale en un cuaderno",
+   "candidatos": [
+    {
+     "codigo": "I2555002-2",
+     "score": 0.418,
+     "coincide": true
+    },
+    {
+     "codigo": "I2555001-2",
+     "score": 0.408,
+     "coincide": true
+    },
+    {
+     "codigo": "I2555002-3",
+     "score": 0.401,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "comprando repuestos",
+   "cita": "compro los repuestos en el centro de Lima",
+   "candidatos": [
+    {
+     "codigo": "F2043018-1",
+     "score": 0.292,
+     "coincide": false
+    },
+    {
+     "codigo": "S3496001-1",
+     "score": 0.28,
+     "coincide": true
+    },
+    {
+     "codigo": "F2043009-3",
+     "score": 0.273,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "enseñando a mi sobrino",
+   "cita": "los sábados le enseño a mi sobrino que me ayuda",
+   "candidatos": [
+    {
+     "codigo": "S3497002-1",
+     "score": 0.36,
+     "coincide": true
+    },
+    {
+     "codigo": "Q3288003-2",
+     "score": 0.344,
+     "coincide": true
+    },
+    {
+     "codigo": "Q3288003-1",
+     "score": 0.342,
+     "coincide": true
+    }
+   ]
+  }
+ ],
+ "competencias": {
+  "M2982001-3": [
+   "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  ],
+  "J2662002-1": [
+   "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  ],
+  "G2145004-1": [
+   "cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla"
+  ],
+  "F2043009-1": [
+   "también le instalo el sistema de nuevo"
+  ],
+  "Q3288004-1": [
+   "yo mismo atiendo a la gente"
+  ],
+  "I2556002-4": [
+   "yo mismo atiendo a la gente"
+  ],
+  "F2043014-2": [
+   "les explico qué tiene su equipo"
+  ],
+  "F2043014-1": [
+   "les explico qué tiene su equipo"
+  ],
+  "F2043012-2": [
+   "les explico qué tiene su equipo"
+  ],
+  "I2555002-2": [
+   "llevo la cuenta de lo que entra y sale en un cuaderno"
+  ],
+  "I2555001-2": [
+   "llevo la cuenta de lo que entra y sale en un cuaderno"
+  ],
+  "S3496001-1": [
+   "compro los repuestos en el centro de Lima"
+  ],
+  "S3497002-1": [
+   "los sábados le enseño a mi sobrino que me ayuda"
+  ],
+  "Q3288003-2": [
+   "los sábados le enseño a mi sobrino que me ayuda"
+  ],
+  "Q3288003-1": [
+   "los sábados le enseño a mi sobrino que me ayuda"
+  ]
+ },
+ "tiempos": {
+  "voz_a_texto": 0.3,
+  "actividades": 12.8,
+  "busqueda": 0.2,
+  "verificacion_si_no": 21
+ }
+}

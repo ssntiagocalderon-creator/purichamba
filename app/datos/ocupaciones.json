@@ -1,0 +1,67 @@
+{
+  "_nota": "Ocupaciones del prototipo y los estándares (ECL) de la matriz MTPE 04-09-2026 que las componen. Las cinco de partida y las transiciones candidatas salen del Plan, sección 5.5 (D-040, C-51, C-52). El texto de cada estándar se toma de datos/procesados/mtpe_estandares_competencia.json al cargar; aquí solo se eligen los códigos. Para quitar o agregar un estándar, editar 'ecl' y volver a correr npm run preparar.",
+  "ocupaciones": [
+    {
+      "id": "limpieza",
+      "nombre_simple": "Personal de limpieza",
+      "codigo_perfil": "M2981001",
+      "es_origen": true,
+      "ecl": ["M2981001-1", "M2981001-2"]
+    },
+    {
+      "id": "auxiliar_administrativo",
+      "nombre_simple": "Auxiliar administrativo",
+      "codigo_perfil": null,
+      "es_origen": true,
+      "sin_perfil": true,
+      "nota": "No tiene perfil propio en la matriz; el MTPE mencionó un mapa funcional (Plan, sección 16, pregunta 17). Pendiente.",
+      "ecl": []
+    },
+    {
+      "id": "almacen",
+      "nombre_simple": "Operador de almacén",
+      "codigo_perfil": "H2452001",
+      "es_origen": true,
+      "ecl": ["H2452001-1", "H2452001-2", "H2452001-3"]
+    },
+    {
+      "id": "cajero",
+      "nombre_simple": "Cajero de tienda",
+      "codigo_perfil": "G2347002",
+      "es_origen": true,
+      "ecl": ["G2347002-1", "G2347002-2", "G2347002-3"]
+    },
+    {
+      "id": "vendedor",
+      "nombre_simple": "Vendedor de tienda",
+      "codigo_perfil": null,
+      "nombre": "Estándares de Ventas y Post Ventas",
+      "es_origen": true,
+      "ecl": ["G2347007-1", "G2347008-1"]
+    },
+    {
+      "id": "housekeeping",
+      "nombre_simple": "Housekeeping en hoteles",
+      "codigo_perfil": "I2555002",
+      "ecl": ["I2555002-1", "I2555002-2", "I2555002-3"]
+    },
+    {
+      "id": "trabajador_hogar",
+      "nombre_simple": "Trabajador/a del hogar",
+      "codigo_perfil": "S3497002",
+      "ecl": ["S3497002-1", "S3497002-2", "S3497002-3", "S3497002-4"]
+    },
+    {
+      "id": "compras",
+      "nombre_simple": "Asistente de compras",
+      "codigo_perfil": "H2452004",
+      "ecl": ["H2452004-1", "H2452004-2", "H2452004-3", "H2452004-4"]
+    },
+    {
+      "id": "caja_financiera",
+      "nombre_simple": "Cajero de banco o financiera",
+      "codigo_perfil": "K2764001",
+      "ecl": ["K2764001-1", "K2764001-2", "K2764001-3"]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+<title>PURICHAMBA ante el jurado</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Rubik:wght@600;700&display=swap">
+<style>
+/* Una sola columna de estudio: en cada pregunta, primero la frase para decir y después el detalle con su fuente. */
+:root {
+  --bg: #F6F8FB;
+  --surface: #FFFFFF;
+  --ink: #14233F;
+  --muted: #56607A;
+  --line: #DDE3EC;
+  --accent: #0056AC;
+  --say: #FFF1BF;
+  --say-ink: #14233F;
+  --tag: #E6EEF8;
+  --display: 'Rubik', 'Arial Rounded MT Bold', Arial, sans-serif;
+  --body: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1729; --surface: #15213A; --ink: #EEF2F8; --muted: #A7B2C7; --line: #2A3A5C;
+    --accent: #8DB8F2; --say: #3A3214; --say-ink: #FFE9A3; --tag: #1F3157; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1729; --surface: #15213A; --ink: #EEF2F8; --muted: #A7B2C7; --line: #2A3A5C;
+  --accent: #8DB8F2; --say: #3A3214; --say-ink: #FFE9A3; --tag: #1F3157; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 64px;
+}
+main { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 36px; }
+header { display: flex; flex-direction: column; gap: 12px; }
+.eyebrow, .etq, .grupo { font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0; }
+h1 { font: 700 clamp(30px, 6vw, 42px)/1.1 var(--display); margin: 0; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 62ch; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 16px 0; border-block: 1px solid var(--line); font-size: 15px; }
+nav span { color: var(--muted); }
+nav a { color: var(--accent); font-weight: 600; text-decoration: none; }
+nav a:hover, nav a:focus-visible { text-decoration: underline; }
+section { display: flex; flex-direction: column; gap: 14px; scroll-margin-top: 16px; }
+h2 { font: 700 23px/1.25 var(--display); margin: 0; text-wrap: balance; }
+.decir { background: var(--say); color: var(--say-ink); border-radius: 12px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; }
+.decir .etq { color: var(--say-ink); opacity: 0.8; }
+.decir p:last-child { margin: 0; font-size: 18px; line-height: 1.55; }
+ul, ol { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+p { margin: 0; }
+.nota { color: var(--muted); font-size: 15px; }
+.tag { align-self: flex-start; background: var(--tag); color: var(--ink); font-size: 13px; font-weight: 600; border-radius: 999px; padding: 3px 12px; }
+.tabla { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 15px; background: var(--surface); }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+td:first-child { font-weight: 700; white-space: nowrap; }
+.fuentes { font-size: 15px; color: var(--muted); }
+.fuentes a { color: var(--accent); overflow-wrap: anywhere; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+
+<main>
+  <header>
+    <p class="eyebrow">Innovathon Ulima x Tether · Demo Day, 30-10-2026</p>
+    <h1>PURICHAMBA ante el jurado</h1>
+    <p class="lede">Lo que nos preguntó el mentor el 28-10 y cómo responderlo. En cada pregunta va primero una frase para decir en voz alta y después el detalle, con su fuente.</p>
+  </header>
+
+  <nav aria-label="Preguntas">
+    <span>Plata:</span> <a href="#p1">1</a> <a href="#p2">2</a> <a href="#p3">3</a>
+    <span>Empleo formal:</span> <a href="#p4">4</a> <a href="#p5">5</a>
+    <span>Propuesta de valor:</span> <a href="#p6">6</a> <a href="#p7">7</a>
+    <span>Extra:</span> <a href="#p8">8</a>
+  </nav>
+
+  <section id="p1">
+    <p class="grupo">1 · Plata</p>
+    <h2>¿Cómo mantenemos viva la app?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«Mantenerla cuesta poco. La IA corre en local con QVAC, así que no pagamos por cada consulta, y los datos son públicos y se actualizan con scripts. Su lugar natural es el Ministerio, dentro de gob.pe y Empleos Perú, y nosotros nos encargamos del mantenimiento.»</p></div>
+    <ul>
+      <li>No hay pago por consulta: la IA corre en nuestra máquina con QVAC.</li>
+      <li>Los datos se rehacen con scripts desde las fuentes oficiales: perfiles del MTPE, cursos de CAPACÍTA-T, listado de centros autorizados y vacantes de Empleos Perú.</li>
+      <li>Qué tareas son iguales entre oficios lo validan especialistas del MTPE, que son quienes hacen los perfiles.</li>
+    </ul>
+  </section>
+
+  <section id="p2">
+    <p class="grupo">2 · Plata</p>
+    <h2>¿Con qué plata sigue? ¿Es autosostenible?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«La persona nunca paga. Arrancamos con fondos concursables. Después, el Ministerio paga la implementación y el mantenimiento según resultados, y las empresas formales pagan por destacar sus avisos o por buscar candidatos con competencias confirmadas. Con esas dos fuentes y un costo bajo, se sostiene sola.»</p></div>
+    <ul>
+      <li><strong>Arranque:</strong> fondos no reembolsables para startups, como los de ProInnóvate (StartUp Perú).</li>
+      <li><strong>Ministerio de Trabajo:</strong> contrato o licencia anual de implementación y mantenimiento, ligado a resultados: personas que se certifican o consiguen empleo formal.</li>
+      <li><strong>Empresas formales:</strong> pagan por destacar avisos o por buscar candidatos con competencias confirmadas.</li>
+      <li><strong>La persona:</strong> gratis siempre. Si le cobráramos, no la usaría quien más la necesita.</li>
+    </ul>
+    <p class="tag">Decidido por Santiago el 28-10 (D-067)</p>
+  </section>
+
+  <section id="p3">
+    <p class="grupo">3 · Plata</p>
+    <h2>¿Por qué invertirían en nosotros si no reciben retorno? ¿Qué gana cada uno?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«Sí hay retorno, y cada uno gana algo distinto. El Ministerio llena sus propios programas y suma empleo formal. La empresa encuentra gente que ya sabe hacer el trabajo. Y quien invierte entra a un servicio con contratos del Estado y pagos de empresas.»</p></div>
+    <div class="tabla">
+      <table>
+        <thead><tr><th>Quién</th><th>Qué gana</th><th>Qué paga</th></tr></thead>
+        <tbody>
+          <tr><td>La persona</td><td>Un nombre oficial para lo que sabe hacer y un camino: curso gratis, dónde certificarse y vacantes reales.</td><td>Nada</td></tr>
+          <tr><td>El MTPE</td><td>Más gente en CAPACÍTA-T, en la certificación y en Empleos Perú, y más empleo formal. Hoy la certificación llega a pocos: 59 415 personas entre 2010 y abril de 2023.</td><td>Implementación y mantenimiento, según resultados</td></tr>
+          <tr><td>Las empresas</td><td>Postulantes cuyas tareas ya están en el lenguaje oficial del MTPE, con su frase al lado.</td><td>Avisos destacados y búsqueda de candidatos</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="p4">
+    <p class="grupo">4 · Empleo formal</p>
+    <h2>¿Garantizamos que los empleos sean formales? ¿Cómo lo validamos y dónde va la restricción?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«No lo dejamos en una promesa. Lo verificamos con herramientas que ya tiene el Estado, en tres momentos: cuando la empresa entra, cuando publica y después de contratar.»</p></div>
+    <ol>
+      <li><strong>Cuando la empresa entra:</strong> se registra con su RUC. En el prototipo se revisa que el RUC sea válido; en la versión real, además, que SUNAT lo muestre activo y habido, que es lo que gob.pe pide para operar con normalidad.</li>
+      <li><strong>Cuando publica (pantalla 6):</strong> el aviso exige contrato en planilla, sueldo y seguro social. Sin eso, no se publica.</li>
+      <li><strong>Después de contratar:</strong> la ley obliga a registrar al trabajador en el T-Registro dentro de su primer día de trabajo. La app le pide a la persona verificarlo con «Verifica tu Chamba» de SUNAFIL, que es gratis y reservado: la empresa no sabe quién consultó y, si la persona no figura, SUNAFIL le manda una alerta a la empresa. Si no figura, la empresa sale de la Red.</li>
+    </ol>
+    <p class="nota">A futuro, con el MTPE: el cruce podría hacerse directo con la planilla electrónica, con un convenio y cuidando los datos personales.</p>
+    <p class="tag">Decidido por Santiago el 28-10 (D-068)</p>
+  </section>
+
+  <section id="p5">
+    <p class="grupo">5 · Empleo formal</p>
+    <h2>¿Cómo está hoy en la app? ¿Qué restricciones tiene el empleador?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«La app muestra vacantes reales de Empleos Perú, el portal del Ministerio. Y una empresa formal puede registrarse con su RUC y publicar un aviso: sin planilla, sueldo y seguro, no se publica. La persona ve cuántas tareas del aviso ya hace y decide si postula; la empresa ve a quienes postularon, en orden de llegada, con lo que les falta.»</p></div>
+    <ul>
+      <li>Solo publican empresas e instituciones que contratan en planilla, con seguridad social. No hay trabajos sueltos entre personas.</li>
+      <li>RUC válido (en la versión real, también activo y habido en SUNAT), y un aviso con contrato en planilla, sueldo y seguro.</li>
+      <li>Ve solo a quienes postularon, en orden de llegada: ninguna IA ordena ni descarta personas.</li>
+      <li>Ve el contacto que la persona decidió dejarle al postular, solo para esa empresa. El DNI lo pide al contratar, como en cualquier empleo.</li>
+      <li>Si la persona no aparece en planilla, la empresa sale de la Red (en la versión real, con el MTPE).</li>
+    </ul>
+    <p class="nota">En la demo, el lado de la empresa solo se usa con una empresa real, para no inventar nada. Si no hay una, se muestra con el mockup.</p>
+  </section>
+
+  <section id="p6">
+    <p class="grupo">6 · Propuesta de valor</p>
+    <h2>Hay otros que hacen lo mismo. ¿Por qué la nuestra?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«Puede que otros recomienden trabajos. Nosotros partimos de lo que la persona sabe hacer, contado con sus palabras, y lo conectamos con lo que el Ministerio ya tiene: sus perfiles, sus cursos gratis, su certificación y su portal de empleo.»</p></div>
+    <ul>
+      <li>Reconoce lo que sabe hacer más allá de su puesto: en nuestras pruebas con QVAC, a un cajero que además arma muebles de melamina y pinta paredes le reconoció esos dos oficios con su estándar oficial. Así se ve en el mockup.</li>
+      <li>El camino se puede recorrer: el curso gratis de CAPACÍTA-T, el centro autorizado donde certificarse y vacantes reales.</li>
+      <li>Nada es inventado, y la persona confirma: cada tarea muestra su frase al lado de la tarea oficial.</li>
+      <li>Lo vimos en las entrevistas: el lavador de autos no conocía los cursos gratis del MTPE y paga una academia que encontró en TikTok. La información existe, pero no le llega.</li>
+    </ul>
+    <p class="nota">No vendan QVAC como lo que nos diferencia: lo más probable es que todos los equipos lo usen. Úsenlo como respaldo: los datos de la persona se quedan en local.</p>
+  </section>
+
+  <section id="p7">
+    <p class="grupo">7 · Propuesta de valor</p>
+    <h2>¿Qué generamos nosotros que los demás no?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«Generamos un pasaporte: el nombre oficial de lo que la persona sabe hacer, con su frase al lado, que puede mandar a una empresa con un enlace. A la empresa le damos candidatos con competencias confirmadas. Y a futuro, al Ministerio, información anónima de qué saben hacer las personas y qué les falta, para decidir qué cursos y certificaciones ofrecer.»</p></div>
+    <ul>
+      <li><strong>Para la persona:</strong> el pasaporte, con las tareas oficiales que confirmó y un enlace de solo lectura para la empresa.</li>
+      <li><strong>Para la empresa:</strong> postulantes con tareas confirmadas en el lenguaje del MTPE.</li>
+      <li><strong>Para el MTPE, a futuro:</strong> datos agregados y anónimos de lo que falta en cada ocupación, sin datos personales.</li>
+    </ul>
+  </section>
+
+  <section id="p8">
+    <p class="grupo">8 · Extra, por si sale</p>
+    <h2>¿Por qué de cajero de tienda a cajero de banco, si el Foro Económico Mundial dice que esos empleos caen?</h2>
+    <div class="decir"><p class="etq">Para decir</p><p>«El ejemplo muestra cómo funciona la app con datos reales. En Empleos Perú hay vacantes reales de cajero en cajas municipales, hoy una de ellas en Lima, y la app las muestra con lo que piden. Además, en nuestras pruebas con QVAC, al mismo cajero le reconoció la melamina y la pintura, con dónde certificarlas.»</p></div>
+  </section>
+
+  <section class="fuentes" aria-label="Fuentes">
+    <p class="grupo">Fuentes, consultadas el 28-10-2026</p>
+    <ul>
+      <li>SUNAT, «Consultar RUC»: <a href="https://www.gob.pe/565">gob.pe/565</a></li>
+      <li>SUNAT, «Registro de Información Laboral T-Registro»: <a href="https://www.gob.pe/8214-t-registro">gob.pe/8214-t-registro</a></li>
+      <li>El Peruano, nota del 16-07-2026 sobre «Verifica tu Chamba» de SUNAFIL: <a href="https://www.elperuano.pe/noticia/300421-estas-en-planilla-consultalo-gratis-con-la-herramienta-verifica-tu-chamba-de-sunafil">elperuano.pe</a></li>
+      <li>SUNAFIL en gob.pe: <a href="https://www.gob.pe/sunafil">gob.pe/sunafil</a></li>
+      <li>ProInnóvate en gob.pe: <a href="https://www.gob.pe/proinnovate">gob.pe/proinnovate</a></li>
+      <li>Plan de Proyecto, tabla de control: certificados C-11, Foro Económico Mundial C-57, vacantes C-72, cursos C-73, centros C-78, oficios reconocidos C-80, entrevistas C-81.</li>
+    </ul>
+  </section>
+
+  <footer>Hoja de estudio del equipo, 28-10-2026. Las decisiones D-067, D-068 y D-071 están en el Plan de Proyecto, versión 0.70.</footer>
+</main>

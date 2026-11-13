@@ -1,0 +1,9 @@
+115 pares marcados: {'si': 12, 'no': 96, 'no_se': 7}
+
+== sim_elemento: "sí" de 0.787 a 0.927; "no" hasta 0.898; AUC 0.790
+  mejor umbral (similitud ≥ 0.885): F1 0.53 · precisión 0.71 · cobertura 0.42 · 5 sí bien, 7 sí perdidos, 2 no aceptados
+  mejor umbral (mismo nivel y similitud ≥ 0.875): F1 0.50 · precisión 0.62 · cobertura 0.42 · 5 sí bien, 7 sí perdidos, 3 no aceptados
+
+== sim_con_ejemplos: "sí" de 0.823 a 0.926; "no" hasta 0.912; AUC 0.877
+  mejor umbral (similitud ≥ 0.890): F1 0.56 · precisión 0.83 · cobertura 0.42 · 5 sí bien, 7 sí perdidos, 1 no aceptados
+  mejor umbral (mismo nivel y similitud ≥ 0.890): F1 0.56 · precisión 0.83 · cobertura 0.42 · 5 sí bien, 7 sí perdidos, 1 no aceptados

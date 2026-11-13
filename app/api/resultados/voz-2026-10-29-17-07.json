@@ -1,0 +1,44 @@
+{
+  "fecha": "2026-10-29T17:07:01.729Z",
+  "nota": "Audios de personas ficticias (voz sintética). Prueba de voz del prototipo app/.",
+  "equipo": {
+    "plataforma": "darwin",
+    "arquitectura": "arm64",
+    "node": "v24.18.0"
+  },
+  "modelo": "PARAKEET_TDT_0_6B_V3_Q8_0",
+  "audios": [
+    {
+      "audio": "jhon",
+      "duracion_segundos": 41,
+      "archivo": {
+        "segundos": 1.05,
+        "wer": 5.1,
+        "texto": "Hola, me llamo John, tengo 34 años. Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga, y cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla. También le instalo el sistema de nuevo y recupero las fotos de los clientes. Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio. Llevo la cuenta de lo que entra y sale en un cuaderno y compro los repuestos en el centro de Lima. Los sábados le enseño a mi sobrino que me ayuda. No tengo ningún certificado, todo lo aprendí mirando videos y practicando."
+      },
+      "pcm": {
+        "segundos": 0.2,
+        "wer": 5.1,
+        "texto": "Hola, me llamo John, tengo 34 años. Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga, y cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla. También le instalo el sistema de nuevo y recupero las fotos de los clientes. Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio. Llevo la cuenta de lo que entra y sale en un cuaderno y compro los repuestos en el centro de Lima. Los sábados le enseño a mi sobrino que me ayuda. No tengo ningún certificado, todo lo aprendí mirando videos y practicando."
+      }
+    },
+    {
+      "audio": "rosa",
+      "duracion_segundos": 35.9,
+      "archivo": {
+        "segundos": 0.17,
+        "wer": 4.3,
+        "texto": "Me llamo Rosa, tengo 47 años y vivo en Juliaca. Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma. Tengo dos máquinas, una recta y una remalladora, y yo misma les doy mantenimiento. En temporada de colegio, contrato a dos vecinas y les reparto el trabajo. Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno. Quisiera trabajar en una empresa de confecciones, pero me piden certificado."
+      },
+      "pcm": {
+        "segundos": 0.17,
+        "wer": 4.3,
+        "texto": "Me llamo Rosa, tengo 47 años y vivo en Juliaca. Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios. Tomo las medidas, saco los moldes y corto la tela yo misma. Tengo dos máquinas, una recta y una remalladora, y yo misma les doy mantenimiento. En temporada de colegio contrato a dos vecinas y les reparto el trabajo. Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno. Quisiera trabajar en una empresa de confecciones, pero me piden certificado."
+      }
+    }
+  ],
+  "carga_segundos": 2.84,
+  "veredicto": {
+    "pcm_menos_de_3s": true
+  }
+}

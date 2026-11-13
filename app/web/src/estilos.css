@@ -1,0 +1,135 @@
+/* Estilos del prototipo. Pensado para celulares sencillos: letra grande, un botón principal por pantalla (D-043).
+   Colores provisionales: ajustar a la guía de estilos de gob.pe (Plan, sección 10.1, C-44). */
+:root {
+  --primario: #c8102e; /* rojo institucional, como gob.pe */
+  --primario-claro: #fcebee;
+  --verde: #1f7a4d;
+  --verde-claro: #e6f4ec;
+  --ambar: #8a5a00;
+  --ambar-claro: #fdf3e1;
+  --texto: #1b1f24;
+  --texto-suave: #555d66;
+  --borde: #d5dbe1;
+  --fondo: #f5f7f9;
+  --blanco: #ffffff;
+  --radio: 10px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--texto);
+  background: var(--fondo);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+h1 { font-size: 1.6rem; line-height: 1.25; margin: 0.2rem 0 0.6rem; }
+h2 { font-size: 1.15rem; margin: 1.8rem 0 0.6rem; }
+a { color: var(--primario); }
+button { font: inherit; cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: 0.55; }
+:focus-visible { outline: 3px solid #f2b705; outline-offset: 2px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+.marco { max-width: 560px; margin: 0 auto; min-height: 100vh; background: var(--blanco); display: flex; flex-direction: column; }
+
+.encabezado__barra { background: var(--primario); color: var(--blanco); display: flex; justify-content: space-between; align-items: center; padding: 6px 16px; font-size: 0.8rem; gap: 8px; }
+.encabezado__marca { font-weight: 700; font-size: 1rem; }
+.encabezado__aviso { opacity: 0.9; text-align: right; }
+.encabezado__titulo { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--borde); }
+.nombre-app { background: none; border: 0; padding: 0; font-weight: 700; color: var(--primario); font-size: 1.05rem; }
+.enlace-volver { background: none; border: 0; padding: 4px 0; color: var(--primario); }
+
+.contenido { flex: 1; padding: 18px 16px 32px; }
+.pie { font-size: 0.78rem; color: var(--texto-suave); padding: 14px 16px; border-top: 1px solid var(--borde); }
+
+.paso { color: var(--texto-suave); font-size: 0.85rem; margin: 0; text-transform: uppercase; letter-spacing: 0.03em; }
+.ayuda { color: var(--texto-suave); margin: 0 0 1rem; }
+.nota { color: var(--texto-suave); font-size: 0.85rem; }
+.estado { color: var(--texto-suave); }
+.estado--error { color: #a11; }
+
+.lista-opciones, .lista-competencias, .lista-transiciones, .lista-sustento, .lista-vacantes, .cursos { list-style: none; padding: 0; margin: 0; }
+
+.opcion { width: 100%; text-align: left; background: var(--blanco); border: 2px solid var(--borde); border-radius: var(--radio); padding: 14px 16px; margin-bottom: 10px; display: flex; flex-direction: column; gap: 2px; }
+.opcion:hover:not(:disabled) { border-color: var(--primario); }
+.opcion__nombre { font-weight: 600; font-size: 1.1rem; }
+.opcion__detalle { color: var(--texto-suave); font-size: 0.85rem; }
+
+.etiqueta { display: block; font-weight: 600; margin-bottom: 6px; }
+.campo-texto { width: 100%; font: inherit; padding: 12px; border: 2px solid var(--borde); border-radius: var(--radio); resize: vertical; }
+.campo-texto:focus { border-color: var(--primario); outline: none; }
+
+.boton-principal { width: 100%; background: var(--primario); color: var(--blanco); border: 0; border-radius: var(--radio); padding: 15px; font-weight: 600; font-size: 1.05rem; margin-top: 14px; }
+.boton-secundario { width: 100%; background: var(--blanco); color: var(--primario); border: 2px solid var(--primario); border-radius: var(--radio); padding: 12px; font-weight: 600; margin-top: 10px; }
+
+.voz { margin-top: 10px; }
+.voz .nota { margin: 6px 0 0; }
+.boton-voz { width: 100%; background: var(--verde-claro); color: var(--verde); border: 2px solid var(--verde); border-radius: var(--radio); padding: 12px; font-weight: 600; }
+.boton-voz--grabando { background: #a11; border-color: #a11; color: var(--blanco); }
+
+.contar-mas { margin-top: 6px; }
+.competencia { border: 2px solid var(--borde); border-radius: var(--radio); padding: 14px; margin-bottom: 12px; }
+.competencia--propuesta { border-color: var(--primario); background: var(--primario-claro); }
+.competencia__cita { font-size: 0.85rem; color: var(--primario); margin: 0 0 6px; }
+.competencia__texto { margin: 0; font-weight: 500; }
+.competencia__codigo { font-size: 0.75rem; color: var(--texto-suave); margin: 4px 0 10px; }
+.respuestas { border: 0; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.respuesta { display: flex; align-items: center; gap: 8px; border: 2px solid var(--borde); border-radius: 8px; padding: 10px; background: var(--blanco); font-size: 0.92rem; }
+.respuesta input { accent-color: var(--primario); width: 18px; height: 18px; }
+.respuesta--elegida { border-color: var(--primario); font-weight: 600; }
+
+.mapa { width: 100%; max-width: 460px; display: block; margin: 0 auto 12px; }
+.mapa__anillo { fill: none; stroke: var(--borde); stroke-dasharray: 3 4; }
+.mapa__linea { stroke: var(--borde); stroke-width: 1.5; }
+.mapa__linea--cerca { stroke: var(--verde); stroke-width: 2.5; }
+.mapa__punto { fill: var(--blanco); stroke: var(--texto-suave); stroke-width: 2; }
+.mapa__punto--cerca { fill: var(--verde-claro); stroke: var(--verde); }
+.mapa__nodo { cursor: pointer; }
+.mapa__nodo:hover .mapa__punto, .mapa__nodo:focus .mapa__punto { stroke: var(--primario); stroke-width: 3; }
+.mapa__texto { font-size: 10.5px; fill: var(--texto); }
+.mapa__cifra { font-size: 9px; font-weight: 700; fill: var(--texto); }
+.mapa__centro { fill: var(--primario); }
+.mapa__centro-texto { font-size: 10px; fill: var(--blanco); font-weight: 700; }
+
+.transicion { width: 100%; text-align: left; background: var(--blanco); border: 2px solid var(--borde); border-radius: var(--radio); padding: 12px 14px; margin-bottom: 10px; display: flex; flex-direction: column; gap: 6px; }
+.transicion:hover { border-color: var(--primario); }
+.transicion__nombre { font-weight: 600; }
+.transicion__rotulo { font-size: 0.88rem; color: var(--texto-suave); }
+.barra { display: block; height: 8px; background: var(--fondo); border-radius: 4px; overflow: hidden; }
+.barra__relleno { display: block; height: 100%; background: var(--verde); }
+
+.rotulo-grande { font-size: 1.2rem; font-weight: 700; color: var(--verde); margin: 0 0 8px; }
+.sustento { border-left: 4px solid var(--borde); padding: 8px 12px; margin-bottom: 10px; background: var(--fondo); border-radius: 0 8px 8px 0; }
+.sustento p { margin: 0; }
+.sustento--tiene { border-left-color: var(--verde); background: var(--verde-claro); }
+.sustento--falta { border-left-color: var(--ambar); background: var(--ambar-claro); }
+.sustento__fuente { font-size: 0.75rem; color: var(--texto-suave); margin-top: 4px !important; }
+.cursos { margin-top: 8px; font-size: 0.9rem; }
+.cursos li { margin-bottom: 4px; }
+
+.vacante { display: flex; flex-direction: column; padding: 10px 0; border-bottom: 1px solid var(--borde); }
+.vacante__detalle { font-size: 0.82rem; color: var(--texto-suave); }
+
+.vacante__cobertura { font-weight: 600; color: var(--verde); font-size: 0.92rem; }
+.formulario { display: flex; flex-direction: column; gap: 4px; }
+.formulario .etiqueta { margin-top: 10px; }
+.grupo { border: 0; padding: 0; margin: 10px 0 0; display: flex; flex-direction: column; gap: 8px; }
+.casilla { display: flex; align-items: flex-start; gap: 10px; border: 2px solid var(--borde); border-radius: 8px; padding: 10px; }
+.casilla input { accent-color: var(--primario); width: 20px; height: 20px; margin-top: 2px; flex: none; }
+.enlace-empresa { margin-top: 24px; text-align: center; }
+.enlace-compartido { word-break: break-all; background: var(--primario-claro); padding: 10px; border-radius: 8px; }
+.aviso-respaldo { background: var(--ambar-claro); border-radius: 8px; padding: 10px 12px; font-size: 0.9rem; }
+
+@media (max-width: 380px) {
+  .respuestas { grid-template-columns: 1fr; }
+}
+
+/* Selector de región (bases: "demanda en su territorio") */
+.region { margin: 4px 0 18px; }
+.region__etiqueta { display: block; font-weight: 600; margin-bottom: 6px; }
+.region__fila { display: flex; gap: 8px; align-items: stretch; flex-wrap: wrap; }
+.region__lista { flex: 1 1 160px; min-height: 46px; padding: 8px 10px; border: 2px solid var(--primario); border-radius: var(--radio); background: var(--blanco); font-size: 1rem; }
+.region__gps { flex: 1 1 160px; width: auto; margin-top: 0; }
+.region .nota { margin: 6px 0 0; }
+.nota--error { color: #a3261f; }

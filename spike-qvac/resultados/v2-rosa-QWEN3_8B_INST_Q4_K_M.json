@@ -1,0 +1,234 @@
+{
+ "audio": "audio/rosa.wav",
+ "modelo": "QWEN3_8B_INST_Q4_K_M",
+ "relato": "Me llamo Rosa, tengo 47 años y vivo en Juliaca. Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma. Tengo dos máquinas, una recta y una remalladora, y yo misma les doy mantenimiento. En temporada de colegio, contrato a dos vecinas y les reparto el trabajo. Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno. Quisiera trabajar en una empresa de confecciones, pero me piden certificado.",
+ "actividades": [
+  {
+   "actividad": "coser",
+   "cita": "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma.",
+   "candidatos": [
+    {
+     "codigo": "C0715001-2",
+     "score": 0.436,
+     "coincide": false
+    },
+    {
+     "codigo": "C0713005-2",
+     "score": 0.389,
+     "coincide": false
+    },
+    {
+     "codigo": "C0714001-2",
+     "score": 0.386,
+     "coincide": true
+    }
+   ]
+  },
+  {
+   "actividad": "toma de medidas",
+   "cita": "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma.",
+   "candidatos": [
+    {
+     "codigo": "A0102002-1",
+     "score": 0.428,
+     "coincide": false
+    },
+    {
+     "codigo": "A0101001-2",
+     "score": 0.423,
+     "coincide": false
+    },
+    {
+     "codigo": "A0101001-1",
+     "score": 0.423,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "sacar moldes",
+   "cita": "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma.",
+   "candidatos": [
+    {
+     "codigo": "A0101031-2",
+     "score": 0.312,
+     "coincide": false
+    },
+    {
+     "codigo": "A0102008-1",
+     "score": 0.311,
+     "coincide": false
+    },
+    {
+     "codigo": "C0611003-1",
+     "score": 0.307,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "cortar tela",
+   "cita": "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma.",
+   "candidatos": [
+    {
+     "codigo": "C0714004-3",
+     "score": 0.499,
+     "coincide": true
+    },
+    {
+     "codigo": "C0713002-2",
+     "score": 0.463,
+     "coincide": false
+    },
+    {
+     "codigo": "C0714004-2",
+     "score": 0.457,
+     "coincide": true
+    }
+   ]
+  },
+  {
+   "actividad": "mantenimiento de máquinas",
+   "cita": "Tengo dos máquinas, una recta y una remalladora, y yo misma les doy mantenimiento.",
+   "candidatos": [
+    {
+     "codigo": "C1833002-3",
+     "score": 0.496,
+     "coincide": false
+    },
+    {
+     "codigo": "J2661003-1",
+     "score": 0.436,
+     "coincide": false
+    },
+    {
+     "codigo": "A0101009-2",
+     "score": 0.416,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "contratación temporal de trabajadores",
+   "cita": "En temporada de colegio, contrato a dos vecinas y les reparto el trabajo.",
+   "candidatos": [
+    {
+     "codigo": "M2979001-2",
+     "score": 0.389,
+     "coincide": false
+    },
+    {
+     "codigo": "M2971001-1",
+     "score": 0.387,
+     "coincide": false
+    },
+    {
+     "codigo": "F2043009-3",
+     "score": 0.384,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "venta en feria",
+   "cita": "Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno.",
+   "candidatos": [
+    {
+     "codigo": "I2556002-4",
+     "score": 0.354,
+     "coincide": false
+    },
+    {
+     "codigo": "I2556002-2",
+     "score": 0.348,
+     "coincide": false
+    },
+    {
+     "codigo": "F2043010-1",
+     "score": 0.339,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "venta por WhatsApp",
+   "cita": "Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno.",
+   "candidatos": [
+    {
+     "codigo": "J2661003-1",
+     "score": 0.302,
+     "coincide": false
+    },
+    {
+     "codigo": "J2661003-2",
+     "score": 0.296,
+     "coincide": false
+    },
+    {
+     "codigo": "S3496001-4",
+     "score": 0.285,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "registro de cuentas",
+   "cita": "Vendo en la feria los domingos y también por WhatsApp, y llevo mis cuentas en un cuaderno.",
+   "candidatos": [
+    {
+     "codigo": "K2764001-2",
+     "score": 0.417,
+     "coincide": false
+    },
+    {
+     "codigo": "K2764001-1",
+     "score": 0.415,
+     "coincide": false
+    },
+    {
+     "codigo": "K2764002-1",
+     "score": 0.411,
+     "coincide": false
+    }
+   ]
+  },
+  {
+   "actividad": "deseo de trabajar en empresa de confección",
+   "cita": "Quisiera trabajar en una empresa de confecciones, pero me piden certificado.",
+   "candidatos": [
+    {
+     "codigo": "C0714001-2",
+     "score": 0.541,
+     "coincide": false
+    },
+    {
+     "codigo": "C0713005-2",
+     "score": 0.532,
+     "coincide": false
+    },
+    {
+     "codigo": "C0714003-1",
+     "score": 0.53,
+     "coincide": false
+    }
+   ]
+  }
+ ],
+ "competencias": {
+  "C0714001-2": [
+   "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma."
+  ],
+  "C0714004-3": [
+   "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma."
+  ],
+  "C0714004-2": [
+   "Desde hace 15 años coso en mi casa, hago polleras, chompas y uniformes para colegios, tomo las medidas, saco los moldes y corto la tela yo misma."
+  ]
+ },
+ "tiempos": {
+  "voz_a_texto": 0.2,
+  "actividades": 24,
+  "busqueda": 0.2,
+  "verificacion_si_no": 27.5
+ }
+}

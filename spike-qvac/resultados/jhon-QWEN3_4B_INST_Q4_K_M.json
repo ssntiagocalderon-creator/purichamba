@@ -1,0 +1,926 @@
+{
+ "audio": "audio/jhon.wav",
+ "modelo": "QWEN3_4B_INST_Q4_K_M",
+ "relato": "Hola, me llamo John, tengo 34 años. Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares, cambio pantallas, baterías y pines de carga, y cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla. También le instalo el sistema de nuevo y recupero las fotos de los clientes. Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio. Llevo la cuenta de lo que entra y sale en un cuaderno y compro los repuestos en el centro de Lima. Los sábados le enseño a mi sobrino que me ayuda. No tengo ningún certificado, todo lo aprendí mirando videos y practicando.",
+ "actividades": [
+  {
+   "actividad": "Arreglar celulares",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "actividad": "Cambiar pantallas",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "actividad": "Cambiar baterías",
+   "cita": "Hace nueve años trabajo en una galería en Sanían del Urigancho arreglando celulares"
+  },
+  {
+   "actividad": "Cambiar pines de carga",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "actividad": "Revisar equipos con multímetro",
+   "cita": "Cuando un equipo no prende lo reviso con el multímetro hasta encontrar la falla"
+  },
+  {
+   "actividad": "Instalar sistemas",
+   "cita": "También le instalo el sistema de nuevo"
+  },
+  {
+   "actividad": "Recuperar fotos de clientes",
+   "cita": "También le instalo el sistema de nuevo y recupero las fotos de los clientes"
+  },
+  {
+   "actividad": "Atender a la gente",
+   "cita": "Yo mismo atiendo a la gente"
+  },
+  {
+   "actividad": "Explicar defectos a clientes",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio"
+  },
+  {
+   "actividad": "Calcular precios",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio"
+  },
+  {
+   "actividad": "Llevar cuenta de entradas y salidas",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "actividad": "Comprar repuestos",
+   "cita": "Compro los repuestos en el centro de Lima"
+  },
+  {
+   "actividad": "Enseñar a sobrino",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  }
+ ],
+ "habilidades_transversales": [
+  {
+   "habilidad": "Atención al cliente",
+   "cita": "Yo mismo atiendo a la gente"
+  },
+  {
+   "habilidad": "Explicación de problemas",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio"
+  },
+  {
+   "habilidad": "Manejo de recursos",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "habilidad": "Gestión de personal",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "habilidad": "Cálculo",
+   "cita": "Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio"
+  }
+ ],
+ "candidatos": {
+  "M2982001-3": {
+   "score": 0.3248465979612136,
+   "por": "Arreglar celulares"
+  },
+  "J2661002-3": {
+   "score": 0.4950432758649712,
+   "por": "Atención al cliente"
+  },
+  "J2662002-1": {
+   "score": 0.308996122632221,
+   "por": "Arreglar celulares"
+  },
+  "J2662002-2": {
+   "score": 0.302246581894935,
+   "por": "Arreglar celulares"
+  },
+  "G2345005-1": {
+   "score": 0.31577804509835733,
+   "por": "Cambiar baterías"
+  },
+  "J2661002-1": {
+   "score": 0.2625319902674077,
+   "por": "Comprar repuestos"
+  },
+  "F2042004-1": {
+   "score": 0.4451699346835303,
+   "por": "Instalar sistemas"
+  },
+  "B0509003-1": {
+   "score": 0.403911780764967,
+   "por": "Cambiar pines de carga"
+  },
+  "B0509003-2": {
+   "score": 0.3936847843589506,
+   "por": "Cambiar pines de carga"
+  },
+  "H2450001-2": {
+   "score": 0.38417320813579037,
+   "por": "Cambiar pines de carga"
+  },
+  "H2449001-2": {
+   "score": 0.38258353644475535,
+   "por": "Cambiar pines de carga"
+  },
+  "M2974002-2": {
+   "score": 0.453391209278883,
+   "por": "Revisar equipos con multímetro"
+  },
+  "M2974002-1": {
+   "score": 0.4039771480606173,
+   "por": "Revisar equipos con multímetro"
+  },
+  "M2974002-3": {
+   "score": 0.39435478649149336,
+   "por": "Revisar equipos con multímetro"
+  },
+  "G2145004-1": {
+   "score": 0.3943375802246624,
+   "por": "Revisar equipos con multímetro"
+  },
+  "F2042003-1": {
+   "score": 0.4609704102872988,
+   "por": "Instalar sistemas"
+  },
+  "J2661002-2": {
+   "score": 0.3998690509549736,
+   "por": "Recuperar fotos de clientes"
+  },
+  "K2764002-1": {
+   "score": 0.3974384240015568,
+   "por": "Recuperar fotos de clientes"
+  },
+  "C0715003-2": {
+   "score": 0.3813606569170062,
+   "por": "Recuperar fotos de clientes"
+  },
+  "G2347002-1": {
+   "score": 0.3761960214289749,
+   "por": "Recuperar fotos de clientes"
+  },
+  "Q3288004-1": {
+   "score": 0.4568389097744745,
+   "por": "Atender a la gente"
+  },
+  "Q3288004-3": {
+   "score": 0.44659805558941257,
+   "por": "Atender a la gente"
+  },
+  "Q3288003-1": {
+   "score": 0.43341469378571773,
+   "por": "Atender a la gente"
+  },
+  "Q3288004-2": {
+   "score": 0.4084685850226228,
+   "por": "Atender a la gente"
+  },
+  "M2979001-1": {
+   "score": 0.3809015401139249,
+   "por": "Explicar defectos a clientes"
+  },
+  "M2974006-1": {
+   "score": 0.3300792893028379,
+   "por": "Explicar defectos a clientes"
+  },
+  "J2662001-4": {
+   "score": 0.32229881268166377,
+   "por": "Explicar defectos a clientes"
+  },
+  "M2979001-2": {
+   "score": 0.32017171001679967,
+   "por": "Explicar defectos a clientes"
+  },
+  "M2971009-2": {
+   "score": 0.31535368792196544,
+   "por": "Cálculo"
+  },
+  "C1423002-1": {
+   "score": 0.27989749172444545,
+   "por": "Calcular precios"
+  },
+  "C0715005-2": {
+   "score": 0.276476591543631,
+   "por": "Calcular precios"
+  },
+  "C0715005-1": {
+   "score": 0.2755388444486361,
+   "por": "Calcular precios"
+  },
+  "I2555001-2": {
+   "score": 0.42404750369796607,
+   "por": "Llevar cuenta de entradas y salidas"
+  },
+  "I2555002-2": {
+   "score": 0.40067004632347675,
+   "por": "Llevar cuenta de entradas y salidas"
+  },
+  "I2556002-4": {
+   "score": 0.5006161173183632,
+   "por": "Atención al cliente"
+  },
+  "I2555001-1": {
+   "score": 0.3975079109825686,
+   "por": "Llevar cuenta de entradas y salidas"
+  },
+  "F2043018-1": {
+   "score": 0.2804542866220618,
+   "por": "Comprar repuestos"
+  },
+  "S3496001-1": {
+   "score": 0.2722570313176532,
+   "por": "Comprar repuestos"
+  },
+  "F2043009-3": {
+   "score": 0.26914164276718633,
+   "por": "Comprar repuestos"
+  },
+  "S3497002-1": {
+   "score": 0.3461395767387694,
+   "por": "Enseñar a sobrino"
+  },
+  "Q3288003-2": {
+   "score": 0.3416199627162597,
+   "por": "Enseñar a sobrino"
+  },
+  "S3497002-4": {
+   "score": 0.3413734756613153,
+   "por": "Enseñar a sobrino"
+  },
+  "I2555004-3": {
+   "score": 0.495693917810374,
+   "por": "Atención al cliente"
+  },
+  "I2556002-2": {
+   "score": 0.4832192592540355,
+   "por": "Atención al cliente"
+  },
+  "M2979008-1": {
+   "score": 0.3743768049631589,
+   "por": "Explicación de problemas"
+  },
+  "M2971001-1": {
+   "score": 0.3697523072451213,
+   "por": "Explicación de problemas"
+  },
+  "M2971001-2": {
+   "score": 0.3641701794499015,
+   "por": "Explicación de problemas"
+  },
+  "M2979005-1": {
+   "score": 0.3619658157467749,
+   "por": "Explicación de problemas"
+  },
+  "H2452004-3": {
+   "score": 0.4533012336471614,
+   "por": "Manejo de recursos"
+  },
+  "A0101009-1": {
+   "score": 0.45256212376744664,
+   "por": "Manejo de recursos"
+  },
+  "A0101009-2": {
+   "score": 0.4441648168170992,
+   "por": "Manejo de recursos"
+  },
+  "M2979004-2": {
+   "score": 0.4850197378777725,
+   "por": "Gestión de personal"
+  },
+  "I2555004-2": {
+   "score": 0.5062751665712224,
+   "por": "Gestión de personal"
+  },
+  "I2555004-1": {
+   "score": 0.5030317683362578,
+   "por": "Gestión de personal"
+  },
+  "M2971006-1": {
+   "score": 0.3021863464588597,
+   "por": "Cálculo"
+  },
+  "M2971006-2": {
+   "score": 0.30050960745770594,
+   "por": "Cálculo"
+  },
+  "M2971007-1": {
+   "score": 0.2991276045116493,
+   "por": "Cálculo"
+  }
+ },
+ "competencias_ia": [
+  {
+   "codigo_ecl": "I2556002-2",
+   "actividades": [
+    8,
+    9,
+    10
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2556002-1",
+   "actividades": [
+    8,
+    9,
+    10
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555004-3",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555004-1",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555004-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "J2661002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555001-1",
+   "actividades": [
+    2
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555001-2",
+   "actividades": [
+    2
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "J2661002-3",
+   "actividades": [
+    3
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2556002-4",
+   "actividades": [
+    3
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555004-3",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555004-1",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555004-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "J2661002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555001-1",
+   "actividades": [
+    2
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2555001-2",
+   "actividades": [
+    2
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "J2661002-3",
+   "actividades": [
+    3
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "I2556002-4",
+   "actividades": [
+    3
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media"
+  }
+ ],
+ "confirmadas": [
+  {
+   "codigo_ecl": "I2556002-2",
+   "actividades": [
+    8,
+    9,
+    10
+   ],
+   "confianza": "media",
+   "cita": "Yo mismo atiendo a la gente / Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio"
+  },
+  {
+   "codigo_ecl": "I2556002-1",
+   "actividades": [
+    8,
+    9,
+    10
+   ],
+   "confianza": "media",
+   "cita": "Yo mismo atiendo a la gente / Yo mismo atiendo a la gente, les explico qué tiene su equipo y les doy el precio"
+  },
+  {
+   "codigo_ecl": "I2555004-3",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "codigo_ecl": "I2555004-1",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "codigo_ecl": "I2555004-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "codigo_ecl": "I2555002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "J2661002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2555001-1",
+   "actividades": [
+    2
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2555001-2",
+   "actividades": [
+    2
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "J2661002-3",
+   "actividades": [
+    3
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en Sanían del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2556002-4",
+   "actividades": [
+    3
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en Sanían del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2555004-3",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "codigo_ecl": "I2555004-1",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "codigo_ecl": "I2555004-2",
+   "actividades": [
+    11
+   ],
+   "confianza": "media",
+   "cita": "Llevo la cuenta de lo que entra y sale en un cuaderno"
+  },
+  {
+   "codigo_ecl": "I2555002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "J2661002-2",
+   "actividades": [
+    1
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2555001-1",
+   "actividades": [
+    2
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2555001-2",
+   "actividades": [
+    2
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en San Juan del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "J2661002-3",
+   "actividades": [
+    3
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en Sanían del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "I2556002-4",
+   "actividades": [
+    3
+   ],
+   "confianza": "media",
+   "cita": "Hace nueve años trabajo en una galería en Sanían del Urigancho arreglando celulares"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "B0509003-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "M2974002-3",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  },
+  {
+   "codigo_ecl": "K2764002-1",
+   "actividades": [
+    13
+   ],
+   "confianza": "media",
+   "cita": "Los sábados le enseño a mi sobrino que me ayuda"
+  }
+ ],
+ "perfiles_cercanos": [
+  {
+   "perfil": "Perfil Ocupacional de Gestión de las operaciones de housekeeping",
+   "total": 3,
+   "tiene": [
+    "Supervisor/a del área de housekeeping",
+    "Ama de llaves, Gobernanta; Jefe/a de ama de llaves",
+    "Ama de llaves; Gobernanta; Jefe/a de ama de llaves"
+   ],
+   "faltan": []
+  },
+  {
+   "perfil": "Perfil Ocupacional de Atención en Salón de Comidas y Bebidas/Eventos",
+   "total": 4,
+   "tiene": [
+    "Ayudante de Mozo",
+    "Mozo/Mesera",
+    "Maitre"
+   ],
+   "faltan": [
+    "Jefe(a) de sala"
+   ]
+  },
+  {
+   "perfil": "Perfil Ocupacional de Recepción de Hotel / Hostal",
+   "total": 3,
+   "tiene": [
+    "Botones",
+    "Recepcionista de Hotel/Hostal"
+   ],
+   "faltan": [
+    "Supervisor(a) de Recepción de hotel/hostal"
+   ]
+  },
+  {
+   "perfil": "Perfil Ocupacional de Servicio de Red de Acceso al Cliente",
+   "total": 3,
+   "tiene": [
+    "Reparador de la red de acceso al cliente",
+    "Supervisor de la red de acceso al cliente"
+   ],
+   "faltan": [
+    "Instalador de la red de acceso al cliente"
+   ]
+  },
+  {
+   "perfil": "Perfil Ocupacional de Carga y Transporte con Equipos Subterráneos",
+   "total": 2,
+   "tiene": [
+    "Operador de equipos de carga, acarreo y descarga (LHD) de bajo perfil"
+   ],
+   "faltan": [
+    "Operador de equipos de transporte de bajo perfil"
+   ]
+  }
+ ],
+ "tiempos": {
+  "1_voz_a_texto": 0.3,
+  "carga_modelo_lenguaje": 3,
+  "2_actividades": 24.7,
+  "3_busqueda": 0.5,
+  "4_confirmacion": 77.6
+ }
+}

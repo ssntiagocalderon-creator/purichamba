@@ -1,0 +1,14 @@
+{
+  "name": "exportar-pitch",
+  "private": true,
+  "type": "module",
+  "description": "Exporta las diapositivas del pitch a PNG, PDF y PPTX editable",
+  "scripts": {
+    "exportar": "node exportar.mjs ../diapositivas ./salida"
+  },
+  "dependencies": {
+    "@phosphor-icons/core": "2.1.1",
+    "pptxgenjs": "3.12.0",
+    "puppeteer-core": "23.11.1"
+  }
+}

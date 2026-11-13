@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+*.log
+.env*
+# Modelos de QVAC: se descargan solos en ~/.qvac la primera vez que corre un script
+*.gguf
+*.bin
+spike-qvac/resultados/log-*.txt
+# Audios de personas reales: nunca se suben (consentimiento y privacidad, ver R9 del plan)
+spike-qvac/audio/reales/

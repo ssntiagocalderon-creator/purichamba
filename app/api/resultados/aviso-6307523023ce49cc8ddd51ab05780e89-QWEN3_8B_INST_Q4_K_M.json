@@ -1,0 +1,76 @@
+{
+ "aviso": {
+  "id": "6307523023ce49cc8ddd51ab05780e89",
+  "titulo": "CAJERO (A) - SANTA ANITA",
+  "empresa": "PERU MONEY SOCIEDAD ANONIMA CERRADA",
+  "publicado": "2026-09-29",
+  "vence": "2026-10-29",
+  "texto": "Empresa de servicios financieros, ubicados en las principales zonas de tránsito y comercio del Perú. Con una red de agencias de 30 tiendas a nivel nacional, manejamos los siguientes productos: WESTERN UNION y DHL, además de ofrecer el tipo de cambio más ventajoso del mercado. Somos una empresa, rápida, segura y confiable\nFUNCIONES\n•\tRealizar transacciones de cambio de divisas, transferencias de dinero, pago de servicios, Servicio de currier, entre otros.\n•\tAtender a los clientes, realizar el cobro y conteo de efectivo de los productos y/o servicios que se brindan en el local, cumpliendo con las políticas de calidad, normativa de seguridad y procedimientos establecidos por la empresa.\n•\tManejar la cotización diaria y constante de las divisas, con los proveedores y competidores de la zona, a fin de actualizar los precios en ventanilla y lograr negociaciones efectivas de compra y venta con los clientes.\n•\tRealizar manejo de caja y cuadre efectivo diario cumpliendo con los procedimientos de conteo de monedas y billetes, tanto en la apertura como en el cierre de caja, a fin de dar conformidad del efectivo recibido durante el desarrollo de sus operaciones,\n•\tGenerar los reportes correspondientes de los saldos que se entregan a la bóveda principal.\n•\tRealizar actividades de Apertura, cierre de local, envío de reportes, cálculo de utilidad, egresos, e información requerida por supervisor o gerencia del área de operaciones, manteniendo la confidencialidad de la información que se maneja en el punto de venta.\n•\tReportar y comunicar al supervisor y/o encargado de local por correo y llamada telefónica los faltantes, sobrantes de caja o cualquier anomalía que se registre con el manejo del dinero con la finalidad de garantizar la transparencia en el uso del dinero asignado al punto de venta.\n•\tOtras funciones que le asigne su jefe inmediato.\nREQUISITOS:\n•\tTécnicos egresados, bachilleres, en curso o inconcluso en administración bancaria, cajero bancario, contabilidad o afines.\n•\tMínimo 01 año de experiencia en el puesto de caja o atención al cliente.\n•\tPersona dinámica y trato al cliente.\n•\tDe Lunes a Domingo con 01 día de descanso en la semana\n•\tTener disposición de trabajar en horarios rotativos. (Aperturas y cierres del punto de venta) (De 9:00 am a 6:00pm / 10:00 am a 7:00pm / 11:00am a 8:00pm)\n•\tDisponibilidad inmediata\n•\tVivir en zonas aledañas al punto de venta\nBENEFICIOS:\n•\tSueldo de S/1240\n•\tIngreso a planilla desde el primer día con beneficios de ley.\n•\tBonos trimestrales por producción\n•\tCapacitación continua.\n•\tAcceso a descuentos y convenios corporativos.\n•\tDía libre por cumpleaños."
+ },
+ "modelo": "QWEN3_8B_INST_Q4_K_M",
+ "corridas": [
+  {
+   "contexto": 4096,
+   "segundos": 5.5,
+   "propuestas": []
+  },
+  {
+   "contexto": 8192,
+   "segundos": 5.5,
+   "propuestas": []
+  },
+  {
+   "contexto": 8192,
+   "segundos": 5.5,
+   "propuestas": []
+  },
+  {
+   "contexto": 8192,
+   "segundos": 20.1,
+   "propuestas": [
+    {
+     "codigo": "G2347002-1",
+     "cita": "Realizar transacciones comerciales en caja, de acuerdo a los procedimientos establecidos por la empresa y normativa vigente.",
+     "texto_simple": "Cobrar y registrar las ventas en caja",
+     "pasa": false
+    },
+    {
+     "codigo": "G2347002-2",
+     "cita": "Controlar las operaciones de caja, de acuerdo a los procedimientos establecidos por la empresa y normativa vigente.",
+     "texto_simple": "Controlar que la caja cuadre y esté en orden",
+     "pasa": false
+    },
+    {
+     "codigo": "G2347002-3",
+     "cita": "Administrar el área de caja, de acuerdo a los procedimientos establecidos por la empresa y normativa vigente.",
+     "texto_simple": "Encargarte del área de cajas",
+     "pasa": false
+    },
+    {
+     "codigo": "K2764001-1",
+     "cita": "Ejecutar las operaciones de caja, de acuerdo a los procedimientos establecidos por la entidad financiera y la normativa legal.",
+     "texto_simple": "Atender operaciones de caja en un banco o financiera",
+     "pasa": false
+    },
+    {
+     "codigo": "K2764001-2",
+     "cita": "Controlar las operaciones de caja, según los procedimientos establecidos por la entidad financiera y la normativa legal.",
+     "texto_simple": "Controlar que la caja del banco cuadre y esté en orden",
+     "pasa": false
+    },
+    {
+     "codigo": "K2764001-3",
+     "cita": "Administrar las operaciones de bóveda y financieras, considerando los procedimientos establecidos por la entidad financiera y la normativa legal.",
+     "texto_simple": "Administrar la bóveda y las operaciones financieras",
+     "pasa": false
+    },
+    {
+     "codigo": "G2347007-1",
+     "cita": "Ejecutar la venta, según procedimientos establecidos, metas comerciales y normativa correspondiente.",
+     "texto_simple": "Vender productos o servicios y cumplir metas de venta",
+     "pasa": false
+    }
+   ]
+  }
+ ]
+}
